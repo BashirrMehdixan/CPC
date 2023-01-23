@@ -225,7 +225,7 @@ a {
   left: 0;
   top: 0;
   transition: all 1s;
-  transform: translate(100%);
+  transform: translate(-100%);
   z-index: 99;
 }
 .overlay-menu-box.opened {
@@ -543,9 +543,6 @@ a {
   opacity: 0.5;
 }
 
-.production-box .cpc-title {
-  margin: 4rem 6vw;
-}
 .production-box .innovation .all-content-head,
 .production-box .technique .all-content-head {
   margin: 0 6vw;
@@ -605,6 +602,11 @@ a {
   background-size: contain;
   background-image: url(../img/why/background.jpg);
   height: 100vh;
+}
+.products-box .why-us .img-cycle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .products-box .why-us .img-cycle img {
   border: 50px solid #f3dd97;
@@ -798,6 +800,9 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
+  .cpc-title {
+    margin-top: 5rem !important;
+  }
   .right-pagination {
     transform: rotate(0deg);
     bottom: 0 !important;
@@ -834,13 +839,14 @@ a {
     justify-content: center;
     flex-direction: column;
   }
-  .products-page-swiper .cpc-title {
-    margin: 5rem 0;
-  }
   .why-us,
 .packaging,
 .preferences {
     height: auto !important;
+  }
+  .why-us .img-cycle img {
+    width: 360px !important;
+    height: 360px !important;
   }
   .preferences .preferences-content-box {
     width: 100% !important;
@@ -850,9 +856,6 @@ a {
   }
   .preferences .preferences-img img {
     width: 100% !important;
-  }
-  .contact-swiper .cpc-title {
-    margin-top: 5rem !important;
   }
   .contact-swiper .contact-form {
     height: auto;

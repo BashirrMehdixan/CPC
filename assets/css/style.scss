@@ -267,7 +267,7 @@ a {
     left: 0;
     top: 0;
     transition: all 1s;
-    transform: translate(100%);
+    transform: translate(-100%);
     z-index: 99;
 
     &.opened {
@@ -662,9 +662,6 @@ a {
 
 // Production start
 .production-box {
-    .cpc-title {
-        margin: 4rem 6vw;
-    }
 
     .innovation,
     .technique {
@@ -742,6 +739,10 @@ a {
         height: 100vh;
 
         .img-cycle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
             img {
                 border: 50px solid #f3dd97;
                 width: 500px;
@@ -984,6 +985,10 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+    .cpc-title {
+        margin-top: 5rem !important;
+    }
+
     .right-pagination {
         transform: rotate(0deg);
         bottom: 0 !important;
@@ -1044,16 +1049,19 @@ a {
         }
     }
 
-    .products-page-swiper {
-        .cpc-title {
-            margin: 5rem 0;
-        }
-    }
-
     .why-us,
     .packaging,
     .preferences {
         height: auto !important;
+    }
+
+    .why-us {
+        .img-cycle {
+            img {
+                width: 360px !important;
+                height: 360px !important;
+            }
+        }
     }
 
     .preferences {
@@ -1071,10 +1079,6 @@ a {
     }
 
     .contact-swiper {
-        .cpc-title {
-            margin-top: 5rem !important;
-        }
-
         .contact-form {
             h4 {
                 color: #616161;
