@@ -457,6 +457,16 @@ a {
     .news {
         margin-top: 2rem;
 
+        .left-news {
+            img {
+                width: 100%;
+            }
+
+            .all-content-head {
+                font-size: 30px;
+            }
+        }
+
         .news-card {
             border: none;
 
@@ -500,10 +510,19 @@ a {
         .right-news {
             .news-card {
                 width: 100%;
-            }
+                padding: 0 8px;
 
-            .card-body {
-                padding-top: 0;
+                .all-content-head {
+                    font-size: 27px;
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                .news-body {
+                    padding: 0 10px;
+                }
             }
         }
     }
@@ -1006,10 +1025,6 @@ a {
         }
 
         .news {
-            .news-card {
-                width: 21rem !important;
-            }
-
             .news {
 
                 .left-news,
@@ -1091,8 +1106,6 @@ a {
             .news {
                 .left-news {
                     .news-card {
-                        width: 47rem;
-
                         .news-head {
                             font-size: 27px;
                         }
@@ -1101,8 +1114,6 @@ a {
 
                 .right-news {
                     .news-card {
-                        width: 47rem;
-
                         .news-head {
                             font-size: 27px;
                         }
