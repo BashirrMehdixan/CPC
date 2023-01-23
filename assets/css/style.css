@@ -254,6 +254,7 @@ a {
 }
 .overlay-menu-box .lang-box {
   gap: 4rem;
+  padding: 0;
 }
 .overlay-menu-box .lang-box a {
   font-family: "Montserrat", sans-serif;
