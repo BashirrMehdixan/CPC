@@ -251,6 +251,12 @@ a {
 .overlay-menu-box .overlay-menu a:hover {
   color: #ffbe00;
 }
+.overlay-menu-box .overlay-menu .lang-box {
+  gap: 4rem;
+}
+.overlay-menu-box .overlay-menu .lang-box a {
+  font-size: 25px !important;
+}
 .overlay-menu-box .bottom-menu {
   gap: 12rem;
   margin: 1rem 0;
@@ -333,7 +339,8 @@ a {
 .all-pages {
   width: 100%;
 }
-.all-pages .next-btn {
+
+.next-btn {
   width: 154px;
   height: 154px;
   background: #f6c64d;
@@ -342,36 +349,38 @@ a {
   top: 34rem;
   right: 2rem;
 }
-.all-pages .about {
+
+.about {
   margin-top: 2rem;
   background-image: url(../img/main/yarpaq.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100% 0;
 }
-.all-pages .about .about-content {
+.about .about-content {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: -0.02em;
   color: #616161;
 }
-.all-pages .our-team {
+
+.our-team {
   margin-top: 2rem;
 }
-.all-pages .our-team .team-card {
+.our-team .team-card {
   border: none;
 }
-.all-pages .our-team .team-card .team-img {
+.our-team .team-card .team-img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.all-pages .our-team .team-card .card-body span {
+.our-team .team-card .card-body span {
   display: block;
   text-align: center;
 }
-.all-pages .our-team .team-card .card-body span.team-name {
+.our-team .team-card .card-body span.team-name {
   font-style: normal;
   font-weight: 700;
   font-size: 31.25px;
@@ -379,20 +388,21 @@ a {
   letter-spacing: -0.02em;
   color: #000;
 }
-.all-pages .our-team .team-card .card-body span.team-job {
+.our-team .team-card .card-body span.team-job {
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 31px;
   color: #ff8e02;
 }
-.all-pages .news {
+
+.news {
   margin-top: 2rem;
 }
-.all-pages .news .news-card {
+.news .news-card {
   border: none;
 }
-.all-pages .news .news-card span {
+.news .news-card span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -400,7 +410,7 @@ a {
   height: 20px;
   border-radius: 10px;
 }
-.all-pages .news .news-card span.tips {
+.news .news-card span.tips {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -409,7 +419,7 @@ a {
   color: #000;
   background: #fee9b0;
 }
-.all-pages .news .news-card span.news-date {
+.news .news-card span.news-date {
   background: #727272;
   font-style: normal;
   font-weight: 400;
@@ -418,46 +428,48 @@ a {
   letter-spacing: -0.02em;
   color: #ffffff;
 }
-.all-pages .news .news-card .news-content {
+.news .news-card .news-content {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: -0.02em;
 }
-.all-pages .news .news-card {
+.news .news-card {
   width: 100%;
   padding: 0 8px;
 }
-.all-pages .news .news-card .all-content-head {
+.news .news-card .all-content-head {
   font-size: 27px;
 }
-.all-pages .news .news-card img {
+.news .news-card img {
   width: 100%;
 }
-.all-pages .news .news-card .news-body {
+.news .news-card .news-body {
   padding: 0 10px;
 }
-.all-pages .certificate-card {
+
+.certificate-card {
   border: none;
   margin-top: 2rem;
 }
-.all-pages .certificate-card img {
+.certificate-card img {
   width: 100%;
 }
-.all-pages .certificate-card .certificate-info {
+.certificate-card .certificate-info a {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: -0.02em;
   color: #616161;
 }
-.all-pages .import {
+
+.import {
   width: 90%;
   background: url(../img/import/map.jpg);
   background-size: contain;
   padding: 1rem 0;
 }
-.all-pages .import .import-head {
+.import .import-head {
   position: relative;
   font-family: "Montserrat";
   font-style: normal;
@@ -467,7 +479,7 @@ a {
   color: #616161;
   padding: 0 1rem;
 }
-.all-pages .import .import-head::before {
+.import .import-head::before {
   position: absolute;
   content: "";
   width: 20px;
@@ -476,35 +488,36 @@ a {
   border-radius: 20px;
   right: 100%;
 }
-.all-pages .import .import-body .import-cycle {
+.import .import-body .import-cycle {
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
 }
-.all-pages .import .import-body .import-cycle.import-cycle1 {
+.import .import-body .import-cycle.import-cycle1 {
   width: 37vw;
   height: 37vw;
   border: 1px solid #000;
 }
-.all-pages .import .import-body .import-cycle.import-cycle2 {
+.import .import-body .import-cycle.import-cycle2 {
   width: 25vw;
   height: 25vw;
   background: #f5c74c;
 }
-.all-pages .import .import-body .import-cycle.import-cycle3 {
+.import .import-body .import-cycle.import-cycle3 {
   width: 19vw;
   height: 19vw;
   border: 1px solid #000;
 }
-.all-pages .import .import-body .import-cycle.import-cycle3 h2 {
+.import .import-body .import-cycle.import-cycle3 h2 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 5vw;
   text-align: center;
 }
-.all-pages .setem .setem-content p {
+
+.setem .setem-content p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -512,33 +525,35 @@ a {
   letter-spacing: -0.02em;
   color: #616161;
 }
-.all-pages .setem .setem-img img {
+.setem .setem-img img {
   width: 100% !important;
 }
-.all-pages .e-catalog .swiper-wrapper {
+
+.e-catalog .swiper-wrapper {
   align-items: flex-end;
 }
-.all-pages .e-catalog .swiper-slide-active img {
+.e-catalog .swiper-slide-active img {
   height: 400px;
   border-radius: 6px;
 }
-.all-pages .e-catalog img {
+.e-catalog img {
+  transition: ease 0.6s;
   height: 350px;
   width: 95%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.all-pages .e-catalog .product-name-box {
+.e-catalog .product-name-box {
   margin-top: 1rem;
 }
-.all-pages .e-catalog .product-name-box span {
+.e-catalog .product-name-box span {
   font-weight: 700;
   font-size: 31.25px;
   line-height: 37px;
   letter-spacing: -0.02em;
   color: #ff8e02;
 }
-.all-pages .e-catalog .product-name-box span:first-child {
+.e-catalog .product-name-box span:first-child {
   font-size: 48.83px;
   opacity: 0.5;
 }
@@ -801,6 +816,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   .cpc-title {
+    width: 100%;
     margin-top: 5rem !important;
   }
   .right-pagination {
