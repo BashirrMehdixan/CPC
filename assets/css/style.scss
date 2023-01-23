@@ -127,12 +127,14 @@ a {
 }
 
 .all-content-head {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 39.06px;
-    line-height: 46px;
-    letter-spacing: -0.02em;
-    color: #727272;
+    h3 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 39.06px;
+        line-height: 46px;
+        letter-spacing: -0.02em;
+        color: #727272;
+    }
 }
 
 // main slide Start
@@ -282,6 +284,7 @@ a {
         justify-content: space-evenly;
         align-items: center;
         padding: 0;
+
         a {
             font-family: "Montserrat", sans-serif;
             font-weight: 800;
@@ -436,6 +439,7 @@ a {
 .our-teams {
     margin: 2rem 0;
     border-bottom: 3px dotted #000;
+
     .team-card {
         border: none;
 
@@ -519,7 +523,9 @@ a {
         padding: 0 8px;
 
         .all-content-head {
-            font-size: 27px;
+            h3 {
+                font-size: 27px;
+            }
         }
 
         img {
@@ -616,6 +622,7 @@ a {
 
 .setem {
     border-top: 3px dotted #000;
+
     .setem-content {
         p {
             font-style: normal;
@@ -676,12 +683,14 @@ a {
     .container-cpc {
         padding-left: 10rem;
     }
+
     h3 {
         font-style: normal;
         font-weight: 700;
         font-size: 39.06px;
         letter-spacing: -0.02em;
     }
+
     .production-content {
         font-style: normal;
         font-weight: 400;
@@ -690,6 +699,7 @@ a {
         letter-spacing: -0.02em;
         color: #616161;
     }
+
     img {
         width: 100%;
     }
@@ -860,6 +870,28 @@ a {
 
 // Products End
 
+.product-info {
+    .all-content-head {
+        padding-top: 5rem;
+    }
+
+    .product-head {
+        width: 100%;
+    }
+
+    .product-info-content {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: -0.02em;
+        color: #616161;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
 .contact-swiper {
     .contact-head {
         font-family: "Montserrat";
@@ -987,6 +1019,7 @@ a {
         }
     }
 }
+
 @media screen and (max-width: 992px) {
     .production-box {
         .production {
@@ -997,15 +1030,18 @@ a {
                     object-fit: cover;
                 }
             }
+
             .production-middle {
                 .all-content-head {
                     margin: 2rem 0;
                 }
+
                 flex-direction: column;
             }
         }
     }
 }
+
 @media screen and (max-width: 768px) {
     .production-box {
         .production {
@@ -1016,21 +1052,26 @@ a {
                     object-fit: cover;
                 }
             }
+
             .production-middle {
                 .all-content-head {
                     margin: 2rem 0;
                 }
+
                 flex-direction: column;
             }
         }
     }
+
     .cpc-title {
         width: 100%;
         margin-top: 5rem !important;
     }
+
     .container-cpc {
         padding: 0 2rem !important;
     }
+
     .right-pagination {
         transform: rotate(0deg);
         bottom: 0 !important;
@@ -1068,7 +1109,9 @@ a {
     }
 
     .all-content-head {
-        font-size: 30px;
+        h3 {
+            font-size: 30px;
+        }
     }
 
     .all-pages {
@@ -1080,6 +1123,7 @@ a {
 
         .news {
             .news {
+
                 .left-news,
                 .right-news {
                     display: flex;
@@ -1185,11 +1229,13 @@ a {
         }
     }
 }
+
 @media (min-width: 769px) and (max-width: 992px) {
     .production-box .container-cpc {
         padding: 0 2rem !important;
     }
 }
+
 @media (min-width: 992px) {
     .all-pages {
         .about {
@@ -1201,6 +1247,7 @@ a {
         }
     }
 }
+
 @media (min-width: 992px) and (max-width: 1399px) {
     .pro-all {
         .left-img {
@@ -1208,19 +1255,23 @@ a {
                 object-fit: cover;
             }
         }
+
         .production-middle {
             align-items: center !important;
+
             .all-content-head {
                 margin: 1rem;
             }
         }
     }
 }
+
 @media (min-width: 1401px) and (max-width: 2400px) {
     .production-middle {
         align-items: flex-end;
     }
 }
+
 @media screen and (max-width: 1600px) {
     .container-cpc {
         .innovation-flex {
@@ -1228,10 +1279,12 @@ a {
         }
     }
 }
+
 @media (min-width: 1600px) {
     .left-nav.active {
         left: 96.5%;
     }
+
     .pro-all {
         align-items: center;
     }
