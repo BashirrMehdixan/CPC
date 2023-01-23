@@ -297,6 +297,17 @@ a {
         }
     }
 
+    .lang-box {
+        gap: 4rem;
+
+        a {
+            font-family: "Montserrat", sans-serif;
+            color: $blackColor;
+            font-weight: 800;
+            font-size: 25px !important;
+        }
+    }
+
     .bottom-menu {
         gap: 12rem;
         margin: 1rem 0;
@@ -394,125 +405,126 @@ a {
 // All page slide start
 .all-pages {
     width: 100%;
+}
 
-    .next-btn {
-        width: 154px;
-        height: 154px;
-        background: #f6c64d;
-        border-radius: 0px 112px;
-        transform: rotate(-10.06deg);
-        top: 34rem;
-        right: 2rem;
+.next-btn {
+    width: 154px;
+    height: 154px;
+    background: #f6c64d;
+    border-radius: 0px 112px;
+    transform: rotate(-10.06deg);
+    top: 34rem;
+    right: 2rem;
+}
+
+.about {
+    margin-top: 2rem;
+    background-image: url(../img/main/yarpaq.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 0;
+
+    .about-content {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+        color: #616161;
     }
+}
 
-    .about {
-        margin-top: 2rem;
-        background-image: url(../img/main/yarpaq.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: 100% 0;
+.our-team {
+    margin-top: 2rem;
 
-        .about-content {
+    .team-card {
+        border: none;
+
+        .team-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-body {
+            span {
+                display: block;
+                text-align: center;
+
+                &.team-name {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31.25px;
+                    line-height: 37px;
+                    letter-spacing: -0.02em;
+                    color: $blackColor;
+                }
+
+                &.team-job {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 31px;
+                    color: $headerColor;
+                }
+            }
+        }
+    }
+}
+
+.news {
+    margin-top: 2rem;
+
+    .news-card {
+        border: none;
+
+        span {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 20px;
+            border-radius: 10px;
+
+            &.tips {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: -0.02em;
+                color: $blackColor;
+                background: #fee9b0;
+            }
+
+            &.news-date {
+                background: #727272;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: -0.02em;
+                color: #ffffff;
+            }
+        }
+
+        .news-content {
             font-weight: 400;
             font-size: 16px;
             line-height: 22px;
             letter-spacing: -0.02em;
-            color: #616161;
         }
     }
 
-    .our-team {
-        margin-top: 2rem;
+    .news-card {
+        width: 100%;
+        padding: 0 8px;
 
-        .team-card {
-            border: none;
-
-            .team-img {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .card-body {
-                span {
-                    display: block;
-                    text-align: center;
-
-                    &.team-name {
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 31.25px;
-                        line-height: 37px;
-                        letter-spacing: -0.02em;
-                        color: $blackColor;
-                    }
-
-                    &.team-job {
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 25px;
-                        line-height: 31px;
-                        color: $headerColor;
-                    }
-                }
-            }
-        }
-    }
-
-    .news {
-        margin-top: 2rem;
-
-        .news-card {
-            border: none;
-
-            span {
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                width: 100px;
-                height: 20px;
-                border-radius: 10px;
-
-                &.tips {
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 12px;
-                    line-height: 15px;
-                    letter-spacing: -0.02em;
-                    color: $blackColor;
-                    background: #fee9b0;
-                }
-
-                &.news-date {
-                    background: #727272;
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 12px;
-                    line-height: 15px;
-                    letter-spacing: -0.02em;
-                    color: #ffffff;
-                }
-            }
-
-            .news-content {
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 22px;
-                letter-spacing: -0.02em;
-            }
+        .all-content-head {
+            font-size: 27px;
         }
 
-        .news-card {
+        img {
             width: 100%;
-            padding: 0 8px;
-
-            .all-content-head {
-                font-size: 27px;
-            }
-
-            img {
-                width: 100%;
-            }
+        }
 
             .news-body {
                 padding: 0 10px;
@@ -520,15 +532,93 @@ a {
         }
     }
 
-    .certificate-card {
-        border: none;
-        margin-top: 2rem;
 
-        img {
-            width: 100%;
+.certificate-card {
+    border: none;
+    margin-top: 2rem;
+
+    img {
+        width: 100%;
+    }
+
+    .certificate-info {
+        a {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -0.02em;
+            color: #616161;
         }
+    }
+}
 
-        .certificate-info {
+.import {
+    width: 90%;
+    background: url(../img/import/map.jpg);
+    background-size: contain;
+    padding: 1rem 0;
+
+    .import-head {
+        position: relative;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+        color: #616161;
+        padding: 0 1rem;
+
+        &::before {
+            position: absolute;
+            content: "";
+            width: 20px;
+            height: 100%;
+            background: #f6c64d;
+            border-radius: 20px;
+            right: 100%;
+        }
+    }
+
+    .import-body {
+        .import-cycle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+
+            &.import-cycle1 {
+                width: 37vw;
+                height: 37vw;
+                border: 1px solid $blackColor;
+            }
+
+            &.import-cycle2 {
+                width: 25vw;
+                height: 25vw;
+                background: #f5c74c;
+            }
+
+            &.import-cycle3 {
+                width: 19vw;
+                height: 19vw;
+                border: 1px solid $blackColor;
+
+                h2 {
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 5vw;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.setem {
+    .setem-content {
+        p {
+            font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 22px;
@@ -537,126 +627,50 @@ a {
         }
     }
 
-    .import {
-        width: 90%;
-        background: url(../img/import/map.jpg);
-        background-size: contain;
-        padding: 1rem 0;
-
-        .import-head {
-            position: relative;
-            font-family: "Montserrat";
-            font-style: normal;
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 49px;
-            color: #616161;
-            padding: 0 1rem;
-
-            &::before {
-                position: absolute;
-                content: "";
-                width: 20px;
-                height: 100%;
-                background: #f6c64d;
-                border-radius: 20px;
-                right: 100%;
-            }
-        }
-
-        .import-body {
-            .import-cycle {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 50%;
-
-                &.import-cycle1 {
-                    width: 37vw;
-                    height: 37vw;
-                    border: 1px solid $blackColor;
-                }
-
-                &.import-cycle2 {
-                    width: 25vw;
-                    height: 25vw;
-                    background: #f5c74c;
-                }
-
-                &.import-cycle3 {
-                    width: 19vw;
-                    height: 19vw;
-                    border: 1px solid $blackColor;
-
-                    h2 {
-                        font-family: "Montserrat";
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 5vw;
-                        text-align: center;
-                    }
-                }
-            }
-        }
-    }
-
-    .setem {
-        .setem-content {
-            p {
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 22px;
-                letter-spacing: -0.02em;
-                color: #616161;
-            }
-        }
-
-        .setem-img {
-            img {
-                width: 100% !important;
-            }
-        }
-    }
-
-    .e-catalog {
-        .swiper-wrapper {
-            align-items: flex-end;
-        }
-
-        .swiper-slide-active {
-            img {
-                height: 400px;
-                border-radius: 6px;
-            }
-        }
-
+    .setem-img {
         img {
-            height: 350px;
-            width: 95%;
-            object-fit: cover;
-        }
-
-        .product-name-box {
-            margin-top: 1rem;
-
-            span {
-                font-weight: 700;
-                font-size: 31.25px;
-                line-height: 37px;
-                letter-spacing: -0.02em;
-                color: $headerColor;
-
-                &:first-child {
-                    font-size: 48.83px;
-                    opacity: 0.5;
-                }
-            }
+            width: 100% !important;
         }
     }
 }
 
-// All page slide end
+    .e-catalog {
+
+        .swiper-wrapper {
+            align-items: flex-end;
+        }
+
+    .swiper-slide-active {
+        img {
+            height: 400px;
+            border-radius: 6px;
+        }
+    }
+
+    img {
+        transition: ease .6s;
+        height: 350px;
+        width: 95%;
+        object-fit: cover;
+    }
+
+    .product-name-box {
+        margin-top: 1rem;
+
+        span {
+            font-weight: 700;
+            font-size: 31.25px;
+            line-height: 37px;
+            letter-spacing: -0.02em;
+            color: $headerColor;
+
+            &:first-child {
+                font-size: 48.83px;
+                opacity: 0.5;
+            }
+        }
+    }
+}
 
 // Production start
 .production-box {
@@ -736,8 +750,8 @@ a {
 
             img {
                 border: 50px solid #f3dd97;
-                width: 500px;
-                height: 500px;
+                width: 480px;
+                height: 480px;
                 border-radius: 100%;
             }
         }
@@ -1012,6 +1026,7 @@ a {
         }
     }
     .cpc-title {
+        width: 100%;
         margin-top: 5rem !important;
     }
     .container-cpc {
@@ -1036,6 +1051,7 @@ a {
 
     .overlay-menu-box {
         .overlay-menu {
+            margin-top: 6rem;
             justify-content: center !important;
 
             li {
