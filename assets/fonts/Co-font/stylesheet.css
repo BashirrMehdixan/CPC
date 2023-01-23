@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Co Text Corp';
+    src: url('CoTextCorp-Regular.eot');
+    src: local('Co Text Corp'), local('CoTextCorp-Regular'),
+        url('CoTextCorp-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CoTextCorp-Regular.woff2') format('woff2'),
+        url('CoTextCorp-Regular.woff') format('woff'),
+        url('CoTextCorp-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Co Text Corp';
+    src: url('CoTextCorp-Light.eot');
+    src: local('Co Text Corp Light'), local('CoTextCorp-Light'),
+        url('CoTextCorp-Light.eot?#iefix') format('embedded-opentype'),
+        url('CoTextCorp-Light.woff2') format('woff2'),
+        url('CoTextCorp-Light.woff') format('woff'),
+        url('CoTextCorp-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Co Text Corp';
+    src: url('CoTextCorp-Bold.eot');
+    src: local('Co Text Corp Bold'), local('CoTextCorp-Bold'),
+        url('CoTextCorp-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CoTextCorp-Bold.woff2') format('woff2'),
+        url('CoTextCorp-Bold.woff') format('woff'),
+        url('CoTextCorp-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Co Headline Corp';
+    src: url('CoHeadlineCorp-Light.eot');
+    src: local('Co Headline Corp Light'), local('CoHeadlineCorp-Light'),
+        url('CoHeadlineCorp-Light.eot?#iefix') format('embedded-opentype'),
+        url('CoHeadlineCorp-Light.woff2') format('woff2'),
+        url('CoHeadlineCorp-Light.woff') format('woff'),
+        url('CoHeadlineCorp-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Co Headline Corp';
+    src: url('CoHeadlineCorp-Bold.eot');
+    src: local('Co Headline Corp Bold'), local('CoHeadlineCorp-Bold'),
+        url('CoHeadlineCorp-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CoHeadlineCorp-Bold.woff2') format('woff2'),
+        url('CoHeadlineCorp-Bold.woff') format('woff'),
+        url('CoHeadlineCorp-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Co Headline Corp';
+    src: url('CoHeadlineCorp-Regular.eot');
+    src: local('Co Headline Corp'), local('CoHeadlineCorp-Regular'),
+        url('CoHeadlineCorp-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CoHeadlineCorp-Regular.woff2') format('woff2'),
+        url('CoHeadlineCorp-Regular.woff') format('woff'),
+        url('CoHeadlineCorp-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
