@@ -458,14 +458,7 @@ a {
         margin-top: 2rem;
 
         .news-card {
-            width: 20rem;
             border: none;
-
-            .news-img {
-                img {
-                    width: 20rem;
-                }
-            }
 
             span {
                 display: inline-flex;
@@ -506,7 +499,7 @@ a {
 
         .right-news {
             .news-card {
-                width: 54rem;
+                width: 100%;
             }
 
             .card-body {
