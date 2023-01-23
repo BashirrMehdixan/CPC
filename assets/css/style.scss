@@ -295,13 +295,16 @@ a {
                 color: $hoverColor;
             }
         }
+    }
 
-        .lang-box {
-            gap: 4rem;
+    .lang-box {
+        gap: 4rem;
 
-            a {
-                font-size: 25px !important;
-            }
+        a {
+            font-family: "Montserrat", sans-serif;
+            color: $blackColor;
+            font-weight: 800;
+            font-size: 25px !important;
         }
     }
 
@@ -754,8 +757,8 @@ a {
 
             img {
                 border: 50px solid #f3dd97;
-                width: 500px;
-                height: 500px;
+                width: 480px;
+                height: 480px;
                 border-radius: 100%;
             }
         }
@@ -1018,6 +1021,7 @@ a {
 
     .overlay-menu-box {
         .overlay-menu {
+            margin-top: 6rem;
             justify-content: center !important;
 
             li {

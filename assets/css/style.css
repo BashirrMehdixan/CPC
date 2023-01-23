@@ -251,10 +251,13 @@ a {
 .overlay-menu-box .overlay-menu a:hover {
   color: #ffbe00;
 }
-.overlay-menu-box .overlay-menu .lang-box {
+.overlay-menu-box .lang-box {
   gap: 4rem;
 }
-.overlay-menu-box .overlay-menu .lang-box a {
+.overlay-menu-box .lang-box a {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 800;
   font-size: 25px !important;
 }
 .overlay-menu-box .bottom-menu {
@@ -625,8 +628,8 @@ a {
 }
 .products-box .why-us .img-cycle img {
   border: 50px solid #f3dd97;
-  width: 500px;
-  height: 500px;
+  width: 480px;
+  height: 480px;
   border-radius: 100%;
 }
 .products-box .packaging {
@@ -832,6 +835,7 @@ a {
     bottom: 0;
   }
   .overlay-menu-box .overlay-menu {
+    margin-top: 6rem;
     justify-content: center !important;
   }
   .overlay-menu-box .overlay-menu li a {

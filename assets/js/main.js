@@ -65,61 +65,6 @@ const catalogSwiper = new Swiper('.catalog-swiper', {
     }
 });
 
-const productsSwiper = new Swiper('.products-page-swiper', {
-    autoHeight: true,
-    spaceBetween: 140,
-    simulateTouch: false,
-    navigation: {
-        nextEl: '.swiper-button-next',
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true,
-    },
-    keyboard: {
-        enabled: true,
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true,
-    },
-    breakpoints: {
-        320: {
-            slidesPerView: 1,
-            spaceBetween: 200,
-        }
-    }
-});
-
-const productSwiper = new Swiper('.product-swiper', {
-    autoHeight: true,
-    slidesPerView: 4,
-    mousewheel: {
-        invert: false,
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true,
-    },
-    breakpoints: {
-        320: {
-            slidesPerView: 1,
-            spaceBetween: 100,
-        },
-        768: {
-            slidesPerView: 2,
-            spaceBetween: 40,
-        },
-        992: {
-            slidesPerView: 4,
-            spaceBetween: 15,
-        }
-    }
-});
-
 const contactSwiper = new Swiper('.contact-swiper', {
     autoHeight: true,
     slidesPerView: 1,

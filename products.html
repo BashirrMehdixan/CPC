@@ -50,7 +50,18 @@
                 <a href="contact.html">Əlaqə</a>
             </li>
         </ul>
-        <div class="bottom-menu d-flex align-items-center justify-content-between">
+        <ul class="lang-box d-flex d-lg-none align-items-center justify-content-center">
+            <li>
+                <a href="#">AZ</a>
+            </li>
+            <li>
+                <a href="#">RU</a>
+            </li>
+            <li>
+                <a href="#">EN</a>
+            </li>
+        </ul>
+        <div class="bottom-menu d-none d-lg-flex align-items-center justify-content-between">
             <div class="social-links d-flex align-items-center justify-content-evenly">
                 <a href="#">
                     <i class="ph-twitter-logo"></i>
@@ -81,172 +92,220 @@
     <!-- Mobile Nav end-->
 
     <div class="products-box">
-        <div class="swiper products-page-swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="container">
-                        <div
-                            class="products-header justify-content-between align-items-center d-md-flex flex-md-row flex-column">
-                            <div class="cpc-title">
-                                <h2 class="cpc-before">cpc</h2>
-                                <h2 class="cpc-after">product</h2>
+        <!-- Product slide -->
+        <div class="container product-slide mt-5">
+            <div class="products-header justify-content-between align-items-center d-md-flex flex-md-row flex-column">
+                <div class="cpc-title">
+                    <h2 class="cpc-before">cpc</h2>
+                    <h2 class="cpc-after">product</h2>
+                </div>
+                <div class="cpc-link me-5">
+                    <a href="#">See More</a>
+                </div>
+            </div>
+            <div class="swiper-slide e-catalog">
+                <div class="container">
+                    <div class="swiper catalog-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="https://azergold.az/uploads/media/news/thumbnail/1754264639797797.jpg"
+                                        alt="">
+                                </a>
+                                <div class="product-name-box">
+                                    <a href="#">
+                                        <span class="product-number">01</span>
+                                        <span class="slide-name">product</span>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="cpc-link me-5">
-                                <a href="#">See More</a>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="./assets/img/catalog/catalog2.jpg" alt="">
+                                </a>
+                                <div class="product-name-box">
+                                    <a href="#">
+                                        <span class="product-number">02</span>
+                                        <span class="slide-name">product</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="./assets/img/catalog/catalog3.jpg" alt="">
+                                </a>
+                                <div class="product-name-box">
+                                    <a href="#">
+                                        <span class="product-number">03</span>
+                                        <span class="slide-name">product</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="./assets/img/catalog/catalog2.jpg" alt="">
+                                </a>
+                                <div class="product-name-box">
+                                    <a href="#">
+                                        <span class="product-number">04</span>
+                                        <span class="slide-name">product</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="./assets/img/catalog/catalog3.jpg" alt="">
+                                </a>
+                                <div class="product-name-box">
+                                    <a href="#">
+                                        <span class="product-number">05</span>
+                                        <span class="slide-name">product</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="./assets/img/catalog/catalog2.jpg" alt="">
+                                </a>
+                                <div class="product-name-box">
+                                    <a href="#">
+                                        <span class="product-number">06</span>
+                                        <span class="slide-name">product</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="swiper product-swiper my-5">
-                            <div class="swiper-wrapper my-4">
-                                <div class="swiper-slide ">
-                                    <img src="assets/img/products/img1.jpg" alt="">
-                                    <h4 class="product-head  mb-4">Lorem Ipsum</h4>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/img/products/img2.jpg" alt="">
-                                    <h4 class="product-head mb-4">Lorem Ipsum</h4>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/img/products/img3.jpg" alt="">
-                                    <h4 class="product-head mb-4">Lorem Ipsum</h4>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/img/products/img1.jpg" alt="">
-                                    <h4 class="product-head mb-4">Lorem Ipsum</h4>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/img/products/img2.jpg" alt="">
-                                    <h4 class="product-head mb-4">Lorem Ipsum</h4>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination sw-product d-none d-lg-block"></div>
-                        </div>
+
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="swiper-slide why-us">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-12 col-lg-5">
-                                <h4 class="products-title my-3">Niyə Biz</h4>
-                                <p class="products-content">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown
-                                </p>
-                                <p class="products-content">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                    an unknown Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                                    1500s, when an unknown
-                                </p>
-                            </div>
-                            <div class="col-12 col-md-12 col-lg-6">
-                                <div class="img-cycle">
-                                    <img src="./assets/img/main/main.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
+        <!-- Why Us-->
+        <div class="why-us mt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-12 col-lg-5">
+                        <h4 class="products-title">Niyə Biz</h4>
+                        <p class="products-content">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown
+                        </p>
+                        <p class="products-content">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown
+                        </p>
                     </div>
-                </div>
-
-                <div class="swiper-slide packaging">
-                    <div class="container my-5">
-                        <div class="row justify-content-center align-items-end ">
-                            <div class="col-12 col-md-12 col-lg-6">
-                                <div class="img-cycle d-flex align-items-center justify-content-center">
-                                    <img src="assets/img/why/packaging.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-12 col-lg-6">
-                                <div class="product-packaging-content">
-                                    <h4 class="products-title mb-3">Packaging</h4>
-                                    <p class="products-content mb-3">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown
-                                    </p>
-                                    <p class="products-content m-0">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide preferences">
-                    <div class="container">
-                        <div class="cpc-title">
-                            <h2 class="cpc-before">cpc</h2>
-                            <h2 class="cpc-after">BİZİM Üstünlük</h2>
-                        </div>
-                        <div class="row justify-content-around">
-                            <div class="preferences-content-box">
-                                <div class="preferences-title">
-                                    <h4>Lorem Ipsum</h4>
-                                </div>
-                                <div class="preferences-content">
-                                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown
-                                    </p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown Lorem Ipsum is simply dummy text of the printing
-                                    </p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown </p>
-                                    <ul class="preferences-section p-0">
-                                        <li>
-                                            <img src="assets/img/preferences/Intersect.svg" alt="">
-                                            <span>Lorem Ipsum is simply dummy</span>
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/preferences/ChartBar.svg" alt="">
-                                            <span>Lorem Ipsum is simply dummy</span>
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/preferences/Thermometer.svg" alt="">
-                                            <span>Lorem Ipsum is simply dummy</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="activites d-none d-lg-block">
-                                    <div class="activites-head d-flex flex-column m-3">
-                                        <span>Activites</span>
-                                        <span>Indicators</span>
-                                    </div>
-                                    <div class="activities-content">
-                                        <p>
-                                            We’re reducing packaging and food waste and limiting our environmental
-                                            footprint to do what we can to try to save the
-                                            world.
-                                            <br>
-                                            We’re reducing packaging and food waste and limiting our environmental
-                                            footprint to do what we can to try to save the
-                                            world.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="preferences-img">
-                                <img src="assets/img/preferences/img.jpg" alt="">
-                            </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="img-cycle">
+                            <img src="./assets/img/main/main.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="right-pagination swiper-pagination"></div>
         </div>
-    </div>
 
+        <!--
+        <div class="swiper-slide packaging">
+            <div class="container my-5">
+                <div class="row justify-content-center align-items-end ">
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="img-cycle d-flex align-items-center justify-content-center">
+                            <img src="assets/img/why/packaging.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="product-packaging-content">
+                            <h4 class="products-title mb-3">Packaging</h4>
+                            <p class="products-content mb-3">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown
+                            </p>
+                            <p class="products-content m-0">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+
+        <!-- Preferences -->
+        <div class="preferences mt-5">
+            <div class="container">
+                <div class="cpc-title" style="width: 95%;">
+                    <h2 class="cpc-before">cpc</h2>
+                    <h2 class="cpc-after">BİZİM Üstünlük</h2>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="preferences-content-box">
+                        <div class="preferences-title">
+                            <h4>Lorem Ipsum</h4>
+                        </div>
+                        <div class="preferences-content">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown
+                            </p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown Lorem Ipsum is simply dummy text of the printing
+                            </p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown </p>
+                            <ul class="preferences-section p-0">
+                                <li>
+                                    <img src="assets/img/preferences/Intersect.svg" alt="">
+                                    <span>Lorem Ipsum is simply dummy</span>
+                                </li>
+                                <li>
+                                    <img src="assets/img/preferences/ChartBar.svg" alt="">
+                                    <span>Lorem Ipsum is simply dummy</span>
+                                </li>
+                                <li>
+                                    <img src="assets/img/preferences/Thermometer.svg" alt="">
+                                    <span>Lorem Ipsum is simply dummy</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="activites d-none d-lg-block">
+                            <div class="activites-head d-flex flex-column m-3">
+                                <span>Activites</span>
+                                <span>Indicators</span>
+                            </div>
+                            <div class="activities-content">
+                                <p>
+                                    We’re reducing packaging and food waste and limiting our environmental
+                                    footprint to do what we can to try to save the
+                                    world.
+                                    <br>
+                                    We’re reducing packaging and food waste and limiting our environmental
+                                    footprint to do what we can to try to save the
+                                    world.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="preferences-img">
+                        <img src="assets/img/preferences/img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-pagination swiper-pagination"></div>
+    </div>
     <!-- Phosphor icons -->
     <script src="https://unpkg.com/phosphor-icons"></script>
     <!-- Bootstrap -->
