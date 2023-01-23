@@ -433,9 +433,9 @@ a {
     }
 }
 
-.our-team {
-    margin-top: 2rem;
-
+.our-teams {
+    margin: 2rem 0;
+    border-bottom: 3px dotted #000;
     .team-card {
         border: none;
 
@@ -526,12 +526,11 @@ a {
             width: 100%;
         }
 
-            .news-body {
-                padding: 0 10px;
-            }
+        .news-body {
+            padding: 0 10px;
         }
     }
-
+}
 
 .certificate-card {
     border: none;
@@ -616,6 +615,7 @@ a {
 }
 
 .setem {
+    border-top: 3px dotted #000;
     .setem-content {
         p {
             font-style: normal;
@@ -634,11 +634,10 @@ a {
     }
 }
 
-    .e-catalog {
-
-        .swiper-wrapper {
-            align-items: flex-end;
-        }
+.e-catalog {
+    .swiper-wrapper {
+        align-items: flex-end;
+    }
 
     .swiper-slide-active {
         img {
@@ -648,7 +647,7 @@ a {
     }
 
     img {
-        transition: ease .6s;
+        transition: ease 0.6s;
         height: 350px;
         width: 95%;
         object-fit: cover;

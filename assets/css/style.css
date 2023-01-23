@@ -440,15 +440,16 @@ a {
   color: #616161;
 }
 
-.our-team {
-  margin-top: 2rem;
+.our-teams {
+  margin: 2rem 0;
+  border-bottom: 3px dotted #000;
 }
 
-.our-team .team-card {
+.our-teams .team-card {
   border: none;
 }
 
-.our-team .team-card .team-img {
+.our-teams .team-card .team-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -460,12 +461,12 @@ a {
           justify-content: center;
 }
 
-.our-team .team-card .card-body span {
+.our-teams .team-card .card-body span {
   display: block;
   text-align: center;
 }
 
-.our-team .team-card .card-body span.team-name {
+.our-teams .team-card .card-body span.team-name {
   font-style: normal;
   font-weight: 700;
   font-size: 31.25px;
@@ -474,7 +475,7 @@ a {
   color: #000;
 }
 
-.our-team .team-card .card-body span.team-job {
+.our-teams .team-card .card-body span.team-job {
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -633,6 +634,10 @@ a {
   text-align: center;
 }
 
+.setem {
+  border-top: 3px dotted #000;
+}
+
 .setem .setem-content p {
   font-style: normal;
   font-weight: 400;
@@ -658,8 +663,8 @@ a {
 }
 
 .e-catalog img {
-  -webkit-transition: ease .6s;
-  transition: ease .6s;
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
   height: 350px;
   width: 95%;
   -o-object-fit: cover;
