@@ -535,10 +535,11 @@ a {
 
     img {
         width: 100%;
+        cursor: pointer;
     }
 
     .certificate-info {
-        a {
+        p {
             font-weight: 400;
             font-size: 16px;
             line-height: 22px;
