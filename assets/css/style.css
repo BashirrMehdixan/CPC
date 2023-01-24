@@ -538,6 +538,21 @@ a {
   width: 100% !important;
 }
 
+.product-name-box {
+  margin-top: 1rem;
+}
+.product-name-box span {
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 37px;
+  letter-spacing: -0.02em;
+  color: #ff8e02;
+}
+.product-name-box span:first-child {
+  font-size: 48.83px;
+  opacity: 0.5;
+}
+
 .e-catalog .swiper-wrapper {
   align-items: flex-end;
 }
@@ -565,6 +580,12 @@ a {
 .e-catalog .product-name-box span:first-child {
   font-size: 48.83px;
   opacity: 0.5;
+}
+
+.products-page img {
+  height: 350px;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .container-cpc {
@@ -731,11 +752,11 @@ a {
 .news-info .news-date {
   display: block;
   padding: 1rem 0;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
   line-height: 15px;
   letter-spacing: -0.02em;
-  color: #616161;
+  color: #ff8e02;
 }
 .news-info .news-info-content {
   font-weight: 400;
