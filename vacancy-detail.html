@@ -44,7 +44,13 @@
                 <a href="production.html">İstehsalat</a>
             </li>
             <li>
+                <a href="news.html">Xəbərlər</a>
+            </li>
+            <li>
                 <a href="products.html">Məhsullar</a>
+            </li>
+            <li class="d-lg-none d-block">
+                <a href="vacancy.html">Vakansiya</a>
             </li>
             <li>
                 <a href="contact.html">Əlaqə</a>
@@ -73,9 +79,8 @@
                     <i class="ph-facebook-logo"></i>
                 </a>
             </div>
-            <a href="">Terms of Use</a>
-            <a href="">Privacy policy</a>
-            <a href="">© 2022 G.A</a>
+            <a href="vacancy.html">Vakansiya</a>
+            <a href="#">© 2022 G.A</a>
         </div>
     </div>
     <!-- Overlay menu end -->
@@ -93,7 +98,7 @@
 
     <div class="vacancy-info">
         <div class="container-cpc">
-            <div class="row align-items-center">
+            <div class="row align-items-center justify-content-between">
                 <div class="col-12 col-md-12 col-lg-7">
                     <div class="vacancy-head">
                         <h4>UX/UI Designer</h4>
@@ -102,7 +107,8 @@
                             <i class="ph-hourglass"></i>
                             <span>Full-Time</span>
                         </div>
-                        <button class="btn apply-btn">Müraciət et</button>
+                        <button class="btn apply-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Müraciət
+                            et</button>
                     </div>
 
                     <div class="job-description mt-5">
@@ -149,13 +155,64 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-none d-lg-block col-12 col-md-12 col-lg-3">
+                <div class="d-none d-lg-block col-12 col-md-12 col-lg-5 text-end">
                     <img src="assets/img/main/vacancy.jpg" alt="">
                 </div>
             </div>
         </div>
     </div>
-
+    <!--Modal Start-->
+    <div class="modal fade careers-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                <h3 class="careers-modal-title">
+                    IT riskləri üzrə mütəxəssis
+                </h3>
+                <form action="" method="GET" class="row align-items-center justify-content-between ">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <h4 class="careers-form-title">CV</h4>
+                                <p class="careers-form-subtitle">CV faylnı yükləyin</p>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <div class="careers-from-docs text-center">
+                                    <a href="#" class="careers-form-docs-link">
+                                        Fayl əlavə et
+                                    </a>
+                                    <h4 class="careers-form-title"> </h4>
+                                    <p class="careers-form-subtitle">PDF, DOC, DOCX, maks 2 mb</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 pt-5 pb-3">
+                        <div class="row align-items-start">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <h4 class="careers-form-title">Şəxsi məlumatlar</h4>
+                                <p class="careers-form-subtitle">Şəxsi məlumatlarınızı daxil edin</p>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <div class="careers-modal-input">
+                                    <input type="text" placeholder="Ad*">
+                                    <input type="text" placeholder="Soyad*">
+                                    <input type="text" placeholder="E-poçt ünvanı*">
+                                    <input type="text" placeholder="Əlaqə nömrəsi">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <button type="submit" class="page-careers-search-btn">Müraciəti göndər</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Modal End-->
     <!-- Phosphor icons -->
     <script src="https://unpkg.com/phosphor-icons"></script>
     <!-- Bootstrap -->
