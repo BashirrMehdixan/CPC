@@ -721,20 +721,29 @@ a {
   width: 41%;
 }
 
-.product-info .all-content-head {
+.news-info .all-content-head {
   padding-top: 5rem;
 }
-.product-info .product-head {
+.news-info .product-head {
   width: 100%;
 }
-.product-info .product-info-content {
+.news-info .news-date {
+  display: block;
+  padding: 1rem 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  color: #616161;
+}
+.news-info .news-info-content {
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
   letter-spacing: -0.02em;
   color: #616161;
 }
-.product-info img {
+.news-info img {
   width: 100%;
 }
 
@@ -829,6 +838,74 @@ a {
 .contact-swiper .vacancy .row .vacancy-card:hover .vacancy-lctn,
 .contact-swiper .vacancy .row .vacancy-card:hover .vacancy-date {
   color: #fff;
+}
+
+.vacancy-info .vacancy-head {
+  margin-top: 5rem;
+}
+.vacancy-info .vacancy-head h4 {
+  color: #ff8e02;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 37px;
+  letter-spacing: -0.02em;
+}
+.vacancy-info .vacancy-head span {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #575757;
+}
+.vacancy-info .vacancy-head .apply-btn {
+  color: #fff;
+  border: none;
+  background: #ff8e02;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.vacancy-info .description-head {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #ff8e02;
+}
+.vacancy-info .description-info {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.vacancy-info .description-info li {
+  position: relative;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #616161;
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+.vacancy-info .description-info li::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background: #ff8e02;
+  left: 0;
+  top: 6px;
+}
+.vacancy-info .post-date {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #575757;
 }
 
 @media screen and (max-width: 576px) {

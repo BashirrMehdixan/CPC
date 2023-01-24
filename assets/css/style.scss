@@ -303,6 +303,7 @@ a {
     .lang-box {
         gap: 4rem;
         padding: 0;
+
         a {
             font-family: "Montserrat", sans-serif;
             color: $blackColor;
@@ -870,7 +871,7 @@ a {
 
 // Products End
 
-.product-info {
+.news-info {
     .all-content-head {
         padding-top: 5rem;
     }
@@ -879,7 +880,17 @@ a {
         width: 100%;
     }
 
-    .product-info-content {
+    .news-date {
+        display: block;
+        padding: 1rem 0;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.02em;
+        color: #616161;
+    }
+
+    .news-info-content {
         font-weight: 400;
         font-size: 16px;
         line-height: 25px;
@@ -1003,6 +1014,85 @@ a {
                 }
             }
         }
+    }
+}
+
+.vacancy-info {
+    .vacancy-head {
+        margin-top: 5rem;
+        h4 {
+            color: $headerColor;
+            font-weight: 700;
+            font-size: 31.25px;
+            line-height: 37px;
+            letter-spacing: -0.02em;
+        }
+
+        span {
+            display: block;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 27px;
+            letter-spacing: -0.02em;
+            color: #575757;
+        }
+
+        .apply-btn {
+            
+            color: #fff;
+            border: none;
+            background: $headerColor;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    }
+
+
+    .description-head {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 31px;
+        letter-spacing: -0.02em;
+        color: $headerColor;
+    }
+
+    .description-info {
+        padding: 0;
+        margin: 0;
+        position: relative;
+
+        li {
+            position: relative;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #616161;
+            padding: 0 1rem;
+            margin: 1rem 0;
+
+            &::before {
+                position: absolute;
+                content: "";
+                width: 10px;
+                height: 10px;
+                border-radius: 50px;
+                background: $headerColor;
+                left: 0;
+                top: 6px;
+            }
+        }
+    }
+
+    .post-date {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        letter-spacing: -0.02em;
+        color: #575757;
     }
 }
 
