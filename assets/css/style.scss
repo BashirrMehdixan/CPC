@@ -642,6 +642,23 @@ a {
     }
 }
 
+.product-name-box {
+    margin-top: 1rem;
+
+    span {
+        font-weight: 700;
+        font-size: 31.25px;
+        line-height: 37px;
+        letter-spacing: -0.02em;
+        color: $headerColor;
+
+        &:first-child {
+            font-size: 48.83px;
+            opacity: 0.5;
+        }
+    }
+}
+
 .e-catalog {
     .swiper-wrapper {
         align-items: flex-end;
@@ -675,6 +692,13 @@ a {
                 opacity: 0.5;
             }
         }
+    }
+}
+
+.products-page {
+    img {
+        height: 350px;
+        object-fit: fill;
     }
 }
 
@@ -882,11 +906,11 @@ a {
     .news-date {
         display: block;
         padding: 1rem 0;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 15px;
         line-height: 15px;
         letter-spacing: -0.02em;
-        color: #616161;
+        color: $headerColor;
     }
 
     .news-info-content {
