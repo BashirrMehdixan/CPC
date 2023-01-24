@@ -413,16 +413,6 @@ a {
     width: 100%;
 }
 
-.next-btn {
-    width: 154px;
-    height: 154px;
-    background: #f6c64d;
-    border-radius: 0px 112px;
-    transform: rotate(-10.06deg);
-    top: 34rem;
-    right: 2rem;
-}
-
 .about {
     margin-top: 2rem;
     background-image: url(../img/main/yarpaq.jpg);
@@ -1191,6 +1181,20 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+    .all-pages {
+        .news {
+            margin: 0;
+
+            .all-content-head {
+                margin-top: 1rem;
+            }
+
+            .news-content {
+                margin: 1rem 0;
+            }
+        }
+    }
+
     .production-box {
         .production {
             .left-img {
