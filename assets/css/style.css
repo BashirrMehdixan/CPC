@@ -450,6 +450,7 @@ a {
 }
 .certificate-card img {
   width: 100%;
+  height: 250px;
   cursor: pointer;
 }
 .certificate-card .certificate-info p {
@@ -458,6 +459,7 @@ a {
   line-height: 22px;
   letter-spacing: -0.02em;
   color: #616161;
+  margin-top: 1rem;
 }
 
 .import {
