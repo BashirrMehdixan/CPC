@@ -44,6 +44,20 @@ a {
   text-decoration: none;
 }
 
+.breadcrump-section {
+  height: 50px;
+  align-self: center;
+  padding: 5px 0;
+}
+.breadcrump-section li {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+}
+.breadcrump-section li a {
+  color: #ff8e02;
+}
+
 .right-pagination {
   bottom: 50% !important;
   left: 47% !important;
@@ -343,10 +357,6 @@ a {
   opacity: 0;
 }
 
-.all-pages {
-  width: 100%;
-}
-
 .about {
   margin-top: 2rem;
   background-image: url(../img/main/yarpaq.jpg);
@@ -444,6 +454,10 @@ a {
   padding: 0 10px;
 }
 
+.certificate {
+  border-top: 3px dotted #000;
+}
+
 .certificate-card {
   border: none;
   margin-top: 2rem;
@@ -516,9 +530,6 @@ a {
   text-align: center;
 }
 
-.setem {
-  border-top: 3px dotted #000;
-}
 .setem .setem-content p {
   font-style: normal;
   font-weight: 400;

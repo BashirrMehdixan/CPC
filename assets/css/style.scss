@@ -62,6 +62,22 @@ a {
     text-decoration: none;
 }
 
+.breadcrump-section {
+    height: 50px;
+    align-self: center;
+    padding: 5px 0;
+
+    li {
+        font-family: Montserrat;
+        font-size: 22px;
+        font-weight: 700;
+
+        a {
+            color: $headerColor;
+        }
+    }
+}
+
 .right-pagination {
     bottom: 50% !important;
     left: 47% !important;
@@ -406,12 +422,6 @@ a {
     }
 }
 
-// main slide end
-
-// All page slide start
-.all-pages {
-    width: 100%;
-}
 
 .about {
     margin-top: 2rem;
@@ -529,6 +539,10 @@ a {
     }
 }
 
+.certificate {
+    border-top: 3px dotted #000;
+}
+
 .certificate-card {
     border: none;
     margin-top: 2rem;
@@ -615,7 +629,6 @@ a {
 }
 
 .setem {
-    border-top: 3px dotted #000;
 
     .setem-content {
         p {
