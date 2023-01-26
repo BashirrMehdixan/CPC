@@ -108,77 +108,88 @@
                 </div>
                 <div class="col-lg-12 col-md-12 my-3">
                     <!-- Register Form -->
-                    <form method="post" class="satisfaction">
+                    <form class="satisfaction">
                         <div class="row mt-3">
                             <div class="col-md-12">
-                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">MÜŞTƏRİ MƏLUMATLARI /
-                                    CUSTOMER INFORMATION</h2>
+                                <h3 style="color: #ff8e02; font-weight: 600; font-style: italic;">MÜŞTƏRİ MƏLUMATLARI /
+                                    CUSTOMER INFORMATION</h3>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="form-group form-focus"><label class="focus-label">Firma adı /Company name
-                                        <span>*</span></label><input type="text" name="name"
-                                        class="form-control floating">
+                                        <span>*</span></label>
+                                    <input type="text" name="name" class="form-control floating">
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="form-group form-focus"><label class="focus-label">Firma adresi, web adresi
                                         /Company website, adress
                                         <span>*</span></label><input type="text" name="name"
                                         class="form-control floating">
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
                                 </div>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-12 mt-3">
-                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">ANKETİ DOLDURAN HAQDA
-                                    MƏLUMAT / QUESTIONARE COMPLATED BY</h2>
+                                <h3 style="color: #ff8e02; font-weight: 600; font-style: italic;">ANKETİ DOLDURAN HAQDA
+                                    MƏLUMAT / QUESTIONARE COMPLATED BY</h3>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group form-focus"><label class="focus-label">Adı və soyadı / Name &
                                         surname
                                         <span>*</span></label><input type="text" name="name"
                                         class="form-control floating">
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group form-focus"><label class="focus-label">Vəzifəsi / job title
                                         <span>*</span></label><input type="text" name="name"
                                         class="form-control floating">
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group form-focus focused"><label class="focus-label">E-mail:
                                         <span>*</span></label><input type="email" name="email"
-                                        class="form-control floating"></div>
+                                        class="form-control floating">
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group form-focus"><label class="focus-label">Telefon /Phone
                                         <span>*</span></label><input type="text" name="phone"
                                         class="form-control floating">
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group form-focus focused"><label class="focus-label">Tarix / Date
                                         <span>*</span></label><input type="date" name="age"
                                         class="form-control floating">
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                <div class="form-group form-focus focused">
+                                    <label class="focus-label">Qiymətləndirmə / Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-12">
-                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">Çatdırılma/Delivery
-                                </h2>
+                                <h3 style="color: #ff8e02; font-weight: 600; font-style: italic;">Çatdırılma/Delivery
+                                </h3>
                             </div>
                         </div>
                         <div class="row d-flex align-items-center mt-2">
@@ -190,14 +201,17 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                        Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
@@ -210,14 +224,17 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                        Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
@@ -230,21 +247,24 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                        Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-12">
-                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">Satış / Sales
-                                </h2>
+                                <h3 style="color: #ff8e02; font-weight: 600; font-style: italic;">Satış / Sales
+                                </h3>
                             </div>
                         </div>
                         <div class="row d-flex align-items-center mt-2">
@@ -256,14 +276,17 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                        Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
@@ -274,129 +297,157 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                        Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
 
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">6.Düzgün faturalandırma / Correct billing </p>
+                                <p class="m-0" style="font-style: italic;">6.Düzgün faturalandırma / Correct billing
+                                </p>
                             </div>
                             <div class="col-md-4">
-                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                <div class="form-group form-focus focused">
+                                    <label class="focus-label">Qiymətləndirmə / Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">7.Qiymətlərdə rəqabət üstünlüyü təmin edilməsi / Providing competitive advantages of price </p>
+                                <p class="m-0" style="font-style: italic;">7.Qiymətlərdə rəqabət üstünlüyü təmin
+                                    edilməsi / Providing competitive advantages of price </p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                        Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">8.Uyğun ödəniş şəraiti / Suitable payment condition</p>
+                                <p class="m-0" style="font-style: italic;">8.Uyğun ödəniş şəraiti / Suitable payment
+                                    condition</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                        Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">9.Uyğun olmayan məhsulları geri çağrılması / The recall inappropriate products</p>
+                                <p class="m-0" style="font-style: italic;">9.Uyğun olmayan məhsulları geri çağrılması /
+                                    The recall inappropriate products</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                        Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">10.Qiymət dəyişikliyi haqqında məlumat verilməsi / Giving information about change of price</p>
+                                <p class="m-0" style="font-style: italic;">10.Qiymət dəyişikliyi haqqında məlumat
+                                    verilməsi / Giving information about change of price</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                        Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-12">
-                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">Əlaqə / Communication
-                                </h2>
+                                <h3 style="color: #ff8e02; font-weight: 600; font-style: italic;">Əlaqə / Communication
+                                </h3>
                             </div>
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">11.Məsul şəxs haqqında məlumatların paylaşılması /Sharing information about responsible person</p>
+                                <p class="m-0" style="font-style: italic;">11.Məsul şəxs haqqında məlumatların
+                                    paylaşılması /Sharing information about responsible person</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                        Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">12.Telefon və e-poçt ilə asan ünsiyyət /Easy communication with phone and email </p>
+                                <p class="m-0" style="font-style: italic;">12.Telefon və e-poçt ilə asan ünsiyyət /Easy
+                                    communication with phone and email </p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -407,13 +458,16 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">13. Geri dönüş müddətləri / Feedback times </p>
+                                <p class="m-0" style="font-style: italic;">13. Geri dönüş müddətləri / Feedback times
+                                </p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -424,30 +478,37 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">14. Məhsul spesifikasiyalarının paylaşımı / Sharing of product spesification </p>
+                                <p class="m-0" style="font-style: italic;">14. Məhsul spesifikasiyalarının paylaşımı /
+                                    Sharing of product spesification </p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
-                                        Scoring</label><select name="q1" class="form-control floating">
+                                        Scoring</label>
+                                    <select name="q1" class="form-control floating">
                                         <option disabled="" selected="" value=""> -- seçim -- </option>
                                         <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
                                         <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">15.Tələbi anlama və qarşılya bilmə /The ability for understanding and covering for demand. </p>
+                                <p class="m-0" style="font-style: italic;">15.Tələbi anlama və qarşılya bilmə /The
+                                    ability for understanding and covering for demand. </p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -458,13 +519,16 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">16.Nümunələrin göndərilməsi prosesi  /The process of sample shipping </p>
+                                <p class="m-0" style="font-style: italic;">16.Nümunələrin göndərilməsi prosesi /The
+                                    process of sample shipping </p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -475,19 +539,23 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-12">
-                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">Məhsul /Product
-                                </h2>
+                                <h3 style="color: #ff8e02; font-weight: 600; font-style: italic;">Məhsul /Product
+                                </h3>
                             </div>
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">17.Bazar və müştəri tələblərinə uyğun yeni məhsul hazırlama /The product development according customer and market expectation</p>
+                                <p class="m-0" style="font-style: italic;">17.Bazar və müştəri tələblərinə uyğun yeni
+                                    məhsul hazırlama /The product development according customer and market expectation
+                                </p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -498,13 +566,17 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">18.Şikayət və geri cavablara vaxtında və uyğun həllin təqdim edilməsi / Offering timely and appropriate solutions to complaints and feedbacks</p>
+                                <p class="m-0" style="font-style: italic;">18.Şikayət və geri cavablara vaxtında və
+                                    uyğun həllin təqdim edilməsi / Offering timely and appropriate solutions to
+                                    complaints and feedbacks</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -515,13 +587,17 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">19.Məhsul spesifikasiyalarının uyğunluğunun müştəri tərəfindən bəyənilməsi / The customer's appreciation for specifications in accordance with products</p>
+                                <p class="m-0" style="font-style: italic;">19.Məhsul spesifikasiyalarının uyğunluğunun
+                                    müştəri tərəfindən bəyənilməsi / The customer's appreciation for specifications in
+                                    accordance with products</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -532,13 +608,16 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">20.Nişastaların müştəri tərəfindən bəyənilməsi / The customer's appreciation for starches</p>
+                                <p class="m-0" style="font-style: italic;">20.Nişastaların müştəri tərəfindən
+                                    bəyənilməsi / The customer's appreciation for starches</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -549,13 +628,16 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">21.Qlükoza siropunun müştəri tərəfindən bəyənilməsi / The customer's appreciation for Glucose syrup</p>
+                                <p class="m-0" style="font-style: italic;">21.Qlükoza siropunun müştəri tərəfindən
+                                    bəyənilməsi / The customer's appreciation for Glucose syrup</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -566,13 +648,14 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select><small class="message">Bu xana boş buraxıla bilməz</small></div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">22.Fruktoza siropunun müştəri tərəfindən bəyənilməsi / The customer's appreciation for Fructose syrup</p>
+                                <p class="m-0" style="font-style: italic;">22.Fruktoza siropunun müştəri tərəfindən
+                                    bəyənilməsi / The customer's appreciation for Fructose syrup</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -583,13 +666,15 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select><small class="message">Bu xana boş buraxıla bilməz</small></div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">23.Yan məhsulların (kəpək, öz, qlüten) müştəri tərəfindən bəyənilməsi / The customer's appreciation for by products (bran, germ, gluten)</p>
+                                <p class="m-0" style="font-style: italic;">23.Yan məhsulların (kəpək, öz, qlüten)
+                                    müştəri tərəfindən bəyənilməsi / The customer's appreciation for by products (bran,
+                                    germ, gluten)</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -600,7 +685,7 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select><small class="message">Bu xana boş buraxıla bilməz</small></div>
                             </div>
 
                         </div>
@@ -617,19 +702,21 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select><small class="message">Bu xana boş buraxıla bilməz</small></div>
                             </div>
 
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-12">
-                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">Şirkət Profili/ Company Profile
-                                </h2>
+                                <h3 style="color: #ff8e02; font-weight: 600; font-style: italic;">Şirkət Profili/
+                                    Company Profile
+                                </h3>
                             </div>
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">25.Performans, çeviklik və komandada işləmək /The performance, agility and teamwork </p>
+                                <p class="m-0" style="font-style: italic;">25.Performans, çeviklik və komandada işləmək
+                                    /The performance, agility and teamwork </p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -640,13 +727,14 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select><small class="message">Bu xana boş buraxıla bilməz</small></div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">26.Yenilikçi yanaşma /The innovative approach</p>
+                                <p class="m-0" style="font-style: italic;">26.Yenilikçi yanaşma /The innovative approach
+                                </p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -657,13 +745,14 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select><small class="message">Bu xana boş buraxıla bilməz</small></div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">27.Müştəri məmnuniyyətinə verilən önəm / The importance given to customer satisfaction</p>
+                                <p class="m-0" style="font-style: italic;">27.Müştəri məmnuniyyətinə verilən önəm / The
+                                    importance given to customer satisfaction</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -674,13 +763,16 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">28.Gigiyena və sanitariya ilə bağlı həssaslıq  / The sensitivity about hygiene and sanitation</p>
+                                <p class="m-0" style="font-style: italic;">28.Gigiyena və sanitariya ilə bağlı həssaslıq
+                                    / The sensitivity about hygiene and sanitation</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -691,13 +783,16 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select><small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">29.HACCP qida təhlükəsizliyi və keyfiyyət idarəetmə sistemlərinin rəqabət üstünlüyü  / The competitive advantage of HACCP food safety and quality management systems</p>
+                                <p class="m-0" style="font-style: italic;">29.HACCP qida təhlükəsizliyi və keyfiyyət
+                                    idarəetmə sistemlərinin rəqabət üstünlüyü / The competitive advantage of HACCP food
+                                    safety and quality management systems</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -708,19 +803,20 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                    </select><small class="message">Bu xana boş buraxıla bilməz</small></div>
                             </div>
 
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-12">
-                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">Ümumi / General
-                                </h2>
+                                <h3 style="color: #ff8e02; font-weight: 600; font-style: italic;">Ümumi / General
+                                </h3>
                             </div>
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">30.Ümumi olaraq zavodumuzla işləməkdən nə qədər məmnunsunuz? /  How much are you pleased for working with us in general ?</p>
+                                <p class="m-0" style="font-style: italic;">30.Ümumi olaraq zavodumuzla işləməkdən nə
+                                    qədər məmnunsunuz? / How much are you pleased for working with us in general ?</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
@@ -731,28 +827,32 @@
                                         <option value="Neytral- 3">3-Neytral / Neutral </option>
                                         <option value="Razı - 4">4-Razı / Satisfied</option>
                                         <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
-                                    </select></div>
+                                        <small class="message"></small>
+                                    </select><small class="message">Bu xana boş buraxıla bilməz</small></div>
                             </div>
 
                         </div>
                         <div class="row d-flex align-items-center mt-2">
                             <div class="col-md-8">
-                                <p class="m-0" style="font-style: italic;">31.Şirkətimizlə nə qədər müddətdir işləyirsiniz? (il) / How long have you been working with our company ? (year)</p>
+                                <p class="m-0" style="font-style: italic;">31.Şirkətimizlə nə qədər müddətdir
+                                    işləyirsiniz? (il) / How long have you been working with our company ? (year)</p>
                             </div>
                             <div class="col-md-4">
-                                <div class="form-group form-focus focused"><label
-                                        class="focus-label">Qeyd</label><textarea rows="1" name="n11"
-                                        class="form-control floating"></textarea></div>
+                                <div class="form-group form-focus focused"><label class="focus-label">Qeyd</label>
+                                    <textarea rows="1" name="n11" class="form-control floating"></textarea>
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                </div>
                             </div>
                         </div>
-                            
+
                         <div class="form-group form-focus focused mt-2" style="height: auto;"><label class="focus-label"
                                 style="font-size: 1rem;">Təklif və şikayətləriniz, Suggestions and
                                 Complaints</label><textarea rows="5" name="n13" class="form-control floating mt-2"
-                                style="height: auto;"></textarea></div>
+                                style="height: auto;"></textarea>
+                            <small class="message">Bu xana boş buraxıla bilməz</small>
+                        </div>
                         <button class="btn btn-block btn-lg login-btn my-4 w-100"
-                            style="background-color: #ff8e02; color: #fff;box-shadow: none;" type="submit"
-                            data-attach-loading="">Göndər</button>
+                            style="background-color: #ff8e02; color: #fff;box-shadow: none;">Göndər</button>
                     </form>
                 </div>
             </div>
@@ -851,6 +951,7 @@
     <!--Footer End-->
 
     <!-- Phosphor icons -->
+    <script src="./assets/js/jquery-3.6.3.min.js"></script>
     <script src="https://unpkg.com/phosphor-icons"></script>
     <!-- Fancy Box -->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
