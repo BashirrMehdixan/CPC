@@ -16,7 +16,6 @@ mobileNavBtn.addEventListener('click', () => {
 })
 
 const pageSwiper = new Swiper('.page-swiper', {
-    autoHeight: true,
     spaceBetween: 140,
     simulateTouch: false,
     navigation: {
@@ -77,3 +76,4 @@ const contactSwiper = new Swiper('.contact-swiper', {
         clickable: true,
     },
 });
+

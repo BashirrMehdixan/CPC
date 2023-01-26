@@ -357,6 +357,10 @@ a {
   opacity: 0;
 }
 
+.all-pages .swiper-wrapper {
+  min-height: 100vh;
+}
+
 .about {
   margin-top: 2rem;
   background-image: url(../img/main/yarpaq.jpg);
@@ -1106,7 +1110,7 @@ a {
 }
 @media (min-width: 992px) {
   .all-pages .about .about-img img {
-    transform: translateY(35%);
+    transform: translateY(15%);
   }
 }
 @media (min-width: 992px) and (max-width: 1399px) {
@@ -1297,5 +1301,65 @@ a {
   .careers-modal .careers-modal-input input {
     padding: 12px;
     margin-bottom: 0.3rem;
+  }
+}
+
+/*Footer*/
+.footer {
+  padding: 3rem 0;
+  background-image: url(../img/footer-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  filter: brightness(0.7);
+}
+.footer .footer-logo {
+  width: 100px;
+  height: 100px;
+}
+.footer .footer-social a {
+  margin-right: 27px;
+}
+.footer .footer-bottom-link a h4 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.004em;
+  color: #fff;
+  transition: 0.3s all ease;
+}
+.footer .footer-bottom-link a h4:hover {
+  color: #df5104;
+}
+.footer .footer-top {
+  margin-bottom: 6rem;
+}
+.footer .footer-top .footer-top-menu h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  letter-spacing: 0.0015em;
+  margin-bottom: 1rem;
+}
+.footer .footer-top .footer-top-menu .footer_menu li {
+  margin-bottom: 8px;
+}
+.footer .footer-top .footer-top-menu .footer_menu li a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  letter-spacing: 0.0025em;
+}
+@media (max-width: 992px) {
+  .footer .footer-top {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 576px) {
+  .footer .footer-top {
+    margin-bottom: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
