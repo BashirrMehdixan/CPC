@@ -77,87 +77,13 @@ const contactSwiper = new Swiper('.contact-swiper', {
     },
 });
 
-// Form Validation
-const contactForm = document.querySelector("#contact-form");
-const contactName = document.querySelector(".contact-name");
-const contactEmail = document.querySelector(".contact-mail");
-const contactMessage = document.querySelector(".contact-message");
-const contactBtn = document.querySelector(".contact-btn");
-
-// contactBtn.addEventListener("click", (e) => {
-//     e.preventDefault()
-//     switch (contactName.value) {
-//         case "":
-//             contactName.style.borderColor = "red";
-//             contactName.nextElementSibling.classList.add("error")
-//             break;
-//     }
-
-//     switch (contactEmail.value) {
-//         case "":
-//             contactEmail.style.borderColor = "red";
-//             contactEmail.nextElementSibling.classList.add("error")
-//             break;
-//     }
-
-//     switch (contactMessage.value) {
-//         case "":
-//             contactMessage.style.borderColor = "red";
-//             contactMessage.nextElementSibling.classList.add("error")
-//             break;
-//     }
-// })
-
-const suggestionBtn = document.querySelector(".suggestions-btn");
-const suggestionName = document.querySelector(".suggestions-name");
-const suggestionNumber = document.querySelector(".suggestions-number");
-const suggestionDate = document.querySelector(".suggestions-date");
-const suggestionEmail = document.querySelector(".suggestions-mail");
-const suggestionMessage = document.querySelector(".suggestions-msg");
-
-// suggestionBtn.addEventListener("click", (e) => {
-//     e.preventDefault();
-//     switch (suggestionName.value) {
-//         case "":
-//             suggestionName.style.borderColor = "red";
-//             suggestionName.nextElementSibling.classList.add("error")
-//             break;
-//     }
-
-//     switch (suggestionEmail.value) {
-//         case "":
-//             suggestionEmail.style.borderColor = "red";
-//             suggestionEmail.nextElementSibling.classList.add("error")
-//             break;
-//     }
-
-//     switch (suggestionMessage.value) {
-//         case "":
-//             suggestionMessage.style.borderColor = "red";
-//             suggestionMessage.nextElementSibling.classList.add("error")
-//             break;
-//     }
-//     switch (suggestionDate.value) {
-//         case "":
-//             suggestionDate.style.borderColor = "red";
-//             suggestionDate.nextElementSibling.classList.add("error")
-//             break;
-//     }
-//     switch (suggestionNumber.value) {
-//         case "":
-//             suggestionNumber.style.borderColor = "red";
-//             suggestionNumber.nextElementSibling.classList.add("error")
-//             break;
-//     }
-// })
 
 $("#contact-form").submit(function (event) {
     event.preventDefault();
-    var empty = false;
     $("#contact-form :input").each(function () {
         if ($(this).val() == "") {
-            $(this).siblings(".message").addClass("error");
-            empty = true;
+            $(this).siblings(".message").addClass("error")
+            $(this).siblings(".message").text("Bu xana boş buraxıla bilməz");
         } else {
             $(this).siblings(".message").removeClass("error");
             $(this).siblings(".message").text("");
@@ -167,11 +93,10 @@ $("#contact-form").submit(function (event) {
 
 $("#suggestions-form").submit(function (event) {
     event.preventDefault();
-    var empty = false;
     $("#suggestions-form :input").each(function () {
         if ($(this).val() == "") {
-            $(this).siblings(".message").addClass("error");
-            empty = true;
+            $(this).siblings(".message").addClass("error")
+            $(this).siblings(".message").text("Bu xana boş buraxıla bilməz");
         } else {
             $(this).siblings(".message").removeClass("error");
             $(this).siblings(".message").text("");

@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/img/logo/main_logo.svg" type="image/svg" sizes="20x20">
     <title>Contact Us</title>
-
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Swiper -->
     <link rel="stylesheet" href="assets/plugin/swiper-bundle.min.css">
-
-    <!-- Custom CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Fancy Box -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -113,7 +114,7 @@
         </div>
     </div>
 
-    <div class=" contact-swiper mt-5">
+    <div class=" contact-swiper">
         <div class="container">
             <div class="cpc-title">
                 <h2 class="cpc-before">cpc</h2>
@@ -134,7 +135,7 @@
                 </div>
                 <div class="col-12 col-lg-6 mb-3">
                     <h4 class="contact-head">Social media</h4>
-                    <div class="contact-social-icon ">
+                    <div class="contact-social-icon mt-3">
                         <ul class="d-flex  p-0">
                             <li>
                                 <a href="#">
@@ -167,20 +168,20 @@
                                 <div class="col-11 col-md-5">
                                     <div class="form-group">
                                         <input type="text" class="form-control mb-3 contact-name" placeholder="Name">
-                                        <small class="message">Bu xana boş buraxıla bilməz</small>
+                                        <small class="message"></small>
                                     </div>
                                 </div>
                                 <div class="col-11 col-md-5">
                                     <div class="form-group">
                                         <input type="text" class="form-control mb-3 contact-mail" placeholder="Email">
-                                        <small class="message">Bu xana boş buraxıla bilməz</small>
+                                        <small class="message"></small>
                                     </div>
                                 </div>
                                 <div class="col-12 d-flex justify-content-center">
                                     <div class="form-group col-md-10 col-11">
                                         <textarea class="form-control message-area mb-3 contact-message" rows="4"
                                             placeholder="Email"></textarea>
-                                        <small class="message">Bu xana boş buraxıla bilməz</small>
+                                        <small class="message"></small>
                                     </div>
                                 </div>
                                 <button class="submit-btn contact-btn btn btn-warning col-md-2 col-9">Send</button>
@@ -199,9 +200,9 @@
 
     </div>
 
-    <div class="suggestions my-5">
+    <div class="suggestions">
         <div class="container-cpc">
-            <div class="cpc-title mt-3">
+            <div class="cpc-title mt-3 suggestions-title">
                 <h2 class="cpc-before">cpc</h2>
                 <h2 class="cpc-after" style="font-family: Montserrat">Təklif və İradlar</h2>
             </div>
@@ -212,25 +213,25 @@
                             <div class="col-11 col-md-6">
                                 <div class="form-group  mb-3">
                                     <input type="text" class="form-control suggestions-name" placeholder="Name">
-                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                    <small class="message"></small>
                                 </div>
                             </div>
                             <div class="col-11 col-md-6">
                                 <div class="form-group  mb-3">
                                     <input type="date" class="form-control suggestions-date">
-                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                    <small class="message"></small>
                                 </div>
                             </div>
                             <div class="col-11 col-md-6">
                                 <div class="form-group  mb-3">
                                     <input type="text" class="form-control suggestions-number" placeholder="Number">
-                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                    <small class="message"></small>
                                 </div>
                             </div>
                             <div class="col-11 col-md-6">
                                 <div class="form-group  mb-3">
                                     <input type="e-mail" class="form-control suggestions-mail" placeholder="Email">
-                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                    <small class="message"></small>
                                 </div>
                             </div>
                             <div class="col-12">
@@ -243,7 +244,7 @@
                                 <div class="form-group  mb-3 col-md-12 col-12">
                                     <textarea class="form-control message-area suggestions-msg" rows="7"
                                         placeholder="What you are insterested"></textarea>
-                                    <small class="message">Bu xana boş buraxıla bilməz</small>
+                                    <small class="message"></small>
                                 </div>
                             </div>
                             <button class="submit-btn btn btn-warning suggestions-btn col-md-2 col-9">Send</button>
@@ -265,43 +266,40 @@
             <div class="container">
                 <div class="footer-top">
                     <div class="row">
-                        <div class="col-lg-2 col-md-3 col-sm-12 col-12 pb-4">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 pb-4">
                             <a href="/index.html">
                                 <img src="/assets/img/logo/cpc_logo.svg" alt="" class="footer-logo">
                             </a>
                         </div>
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-12 pb-4">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-12 pb-4">
                             <div class="footer-top-menu">
-                                <h3>Haqqımızda</h3>
+                                <h3>İnformasiya</h3>
                                 <div class="footer_menu">
                                     <ul>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="reseption-days.html">Qəbul Günləri</a></li>
-                                        <li><a href="management.html">Our Teams</a></li>
-                                        <li><a href="financial-and-audit-reports.html">Hesabatlar</a></li>
-                                        <li><a href="legislation.html">Qanunvericilik</a></li>
+                                        <li><a href="about.html">Haqqımızda</a></li>
+                                        <li><a href="production.html">İstehsalat</a></li>
+                                        <li><a href="certificates.html">Sertifikatlar</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-12 pb-4">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-12 pb-4">
                             <div class="footer-top-menu">
-                                <h3>MEDİA</h3>
+                                <h3>Media və Məhsullar</h3>
                                 <div class="footer_menu">
                                     <ul>
                                         <li><a href="news.html">Xəbərlər</a></li>
-                                        <li><a href="products.html">Products</a></li>
+                                        <li><a href="products.html">Məhsullar</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-12 pb-4">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-12 pb-4">
                             <div class="footer-top-menu">
                                 <h3>Karyera</h3>
                                 <div class="footer_menu">
                                     <ul>
                                         <li><a href="vacancy.html">Vakansiyalar</a></li>
-                                        <li><a href="vacancy-archive.html">Karyera</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -313,20 +311,21 @@
                         <div class="col-lg-3 col-md-6 col-sm-6 pb-3">
                             <div class="footer-social">
                                 <a href="#">
-                                    <img src="./assets/img/icon/twitter.svg" alt="">
+                                    <i class="ph-twitter-logo"></i>
                                 </a>
                                 <a href="#">
-                                    <img src="./assets/img/icon/instagram.svg" alt="">
+                                    <i class="ph-facebook-logo"></i>
                                 </a>
                                 <a href="#">
-                                    <img src="./assets/img/icon/facebook.svg" alt="">
+                                    <i class="ph-instagram-logo"></i>
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 pb-3">
                             <div class="footer-bottom-link">
-                                <a href="/faq.html">
-                                    <h4> Sual-Cavab</h4>
+                                <a href="/satisfaction.html">
+                                    <h4> Məmnunluq anketi
+                                    </h4>
                                 </a>
                             </div>
                         </div>
@@ -341,7 +340,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-6 pb-3">
                             <div class="footer-bottom-link">
                                 <a href="#">
-                                    <h4> <span>© 2022 </span>G.A</h4>
+                                    <h4> <span>© 2023 </span>Corn Processing Company</h4>
                                 </a>
                             </div>
                         </div>
@@ -352,15 +351,17 @@
     </footer>
     <!--Footer End-->
 
-    <!-- Phosphor icons -->
+    <!-- JQuery -->
     <script src="./assets/js/jquery-3.6.3.min.js"></script>
+    <!-- Fancy Box -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <!-- Phosphor icons -->
     <script src="https://unpkg.com/phosphor-icons"></script>
     <!-- Bootstrap -->
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <!-- Swiper -->
     <script src="./assets/plugin/swiper-bundle.min.js"></script>
-    <script src="./assets/plugin/jbvalidator.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 

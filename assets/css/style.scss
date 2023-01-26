@@ -50,6 +50,7 @@ ul {
 .error {
     color: red;
 }
+
 .cpc-link {
     width: 100%;
     text-align: right;
@@ -128,7 +129,7 @@ a {
     width: 70%;
 
     .cpc-after {
-        font-family: "Co Headline Corp";
+        font-family: "Montserrat", sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 31.25px;
@@ -293,10 +294,10 @@ a {
     width: 100%;
     height: 100vh;
     background: rgba(255, 255, 255, 0.9);
-    left: 0;
     top: 0;
-    transition: all 1s;
+    right: 0;
     transform: translate(-100%);
+    transition: all 1s;
     z-index: 99;
 
     &.opened {
@@ -485,7 +486,6 @@ a {
 }
 
 .news {
-    margin-top: 2rem;
 
     .news-card {
         border: none;
@@ -658,11 +658,11 @@ a {
 
     span {
         font-style: normal;
-            font-weight: 400;
-            font-size: 30px;
-            line-height: 25px;
-            letter-spacing: -0.02em;
-            color: #616161;
+        font-weight: 400;
+        font-size: 30px !important;
+        line-height: 25px !important;
+        letter-spacing: -0.02em !important;
+        color: #616161 !important;
     }
 }
 
@@ -886,10 +886,6 @@ a {
 // Products End
 
 .news-info {
-    .all-content-head {
-        padding-top: 5rem;
-    }
-
     .product-head {
         width: 100%;
     }
@@ -959,6 +955,7 @@ a {
 
         .submit-btn {
             color: #fff;
+            margin-bottom: 1rem;
             background: $headerColor;
         }
     }
@@ -1057,8 +1054,6 @@ a {
 
 .vacancy-info {
     .vacancy-head {
-        margin-top: 8rem;
-
         h4 {
             color: $headerColor;
             font-weight: 700;
@@ -1135,12 +1130,16 @@ a {
     }
 
     .post-date {
-        display: inline-block;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 27px;
         letter-spacing: -0.02em;
         color: #575757;
+
+        i {
+            display: flex;
+            align-items: center;
+        }
     }
 }
 
@@ -1176,15 +1175,17 @@ a {
     width: auto !important;
 }
 
-.sitemap-main li a:hover {
-    color: #df5104;
-}
-
 .sitemap-main li a {
     font-size: 28px;
     font-weight: 700;
     color: #222;
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+        color: #df5104;
+    }
 }
 
 .main-sitemap-item {
@@ -1246,6 +1247,10 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+    .suggestions-title {
+        width: 80% !important;
+    }
+
     .all-pages {
         .news {
             margin: 0;
@@ -1282,7 +1287,6 @@ a {
 
     .cpc-title {
         width: 100%;
-        margin-top: 5rem !important;
     }
 
     .container-cpc {
@@ -1339,17 +1343,16 @@ a {
         }
 
         .news {
-            .news {
 
-                .left-news,
-                .right-news {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                }
+            .left-news,
+            .right-news {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
             }
         }
+
     }
 
     .why-us,
@@ -1396,12 +1399,24 @@ a {
         }
     }
 
-    .vacancy-head {
-        margin-top: 6rem !important;
+    .footer {
+        margin-top: 2rem;
+    }
+
+    .breadcrump-section {
+        margin-top: 8rem !important;
     }
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
+    .footer {
+        margin-top: 2rem;
+    }
+
+    .breadcrump-section {
+        margin-top: 8rem !important;
+    }
+
     .overlay-menu-box {
         .overlay-menu {
             justify-content: center !important;

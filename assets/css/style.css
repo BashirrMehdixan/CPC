@@ -102,7 +102,7 @@ a {
   width: 70%;
 }
 .cpc-title .cpc-after {
-  font-family: "Co Headline Corp";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 31.25px;
@@ -244,10 +244,10 @@ a {
   width: 100%;
   height: 100vh;
   background: rgba(255, 255, 255, 0.9);
-  left: 0;
   top: 0;
-  transition: all 1s;
+  right: 0;
   transform: translate(-100%);
+  transition: all 1s;
   z-index: 99;
 }
 .overlay-menu-box.opened {
@@ -408,9 +408,6 @@ a {
   color: #ff8e02;
 }
 
-.news {
-  margin-top: 2rem;
-}
 .news .news-card {
   border: none;
 }
@@ -552,10 +549,10 @@ a {
 .product-name-box span {
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 25px;
-  letter-spacing: -0.02em;
-  color: #616161;
+  font-size: 30px !important;
+  line-height: 25px !important;
+  letter-spacing: -0.02em !important;
+  color: #616161 !important;
 }
 
 .e-catalog .swiper-wrapper {
@@ -734,9 +731,6 @@ a {
   width: 41%;
 }
 
-.news-info .all-content-head {
-  padding-top: 5rem;
-}
 .news-info .product-head {
   width: 100%;
 }
@@ -797,6 +791,7 @@ a {
 }
 .contact-swiper .contact-form .submit-btn {
   color: #fff;
+  margin-bottom: 1rem;
   background: #ff8e02;
 }
 .contact-swiper .contact-social-icon ul li {
@@ -869,9 +864,6 @@ a {
   margin-left: 5px;
 }
 
-.vacancy-info .vacancy-head {
-  margin-top: 8rem;
-}
 .vacancy-info .vacancy-head h4 {
   color: #ff8e02;
   font-weight: 700;
@@ -936,12 +928,15 @@ a {
   color: #616161;
 }
 .vacancy-info .post-date {
-  display: inline-block;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.02em;
   color: #575757;
+}
+.vacancy-info .post-date i {
+  display: flex;
+  align-items: center;
 }
 
 .satisfaction-form {
@@ -975,15 +970,16 @@ a {
   width: auto !important;
 }
 
-.sitemap-main li a:hover {
-  color: #df5104;
-}
-
 .sitemap-main li a {
   font-size: 28px;
   font-weight: 700;
   color: #222;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  transition: color 0.2s ease-in-out;
+}
+.sitemap-main li a:hover {
+  color: #df5104;
 }
 
 .main-sitemap-item {
@@ -1031,6 +1027,9 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
+  .suggestions-title {
+    width: 80% !important;
+  }
   .all-pages .news {
     margin: 0;
   }
@@ -1054,7 +1053,6 @@ a {
   }
   .cpc-title {
     width: 100%;
-    margin-top: 5rem !important;
   }
   .container-cpc {
     padding: 0 2rem !important;
@@ -1089,8 +1087,8 @@ a {
   .all-pages .about img {
     width: 100%;
   }
-  .all-pages .news .news .left-news,
-.all-pages .news .news .right-news {
+  .all-pages .news .left-news,
+.all-pages .news .right-news {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1125,11 +1123,20 @@ a {
   .contact-swiper .contact-form h4 {
     color: #616161;
   }
-  .vacancy-head {
-    margin-top: 6rem !important;
+  .footer {
+    margin-top: 2rem;
+  }
+  .breadcrump-section {
+    margin-top: 8rem !important;
   }
 }
 @media (min-width: 769px) and (max-width: 991px) {
+  .footer {
+    margin-top: 2rem;
+  }
+  .breadcrump-section {
+    margin-top: 8rem !important;
+  }
   .overlay-menu-box .overlay-menu {
     justify-content: center !important;
   }
