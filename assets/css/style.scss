@@ -46,7 +46,14 @@ body::-webkit-scrollbar {
 ul {
     padding: 0;
 }
+small.message {
+    visibility: hidden;
+    color: red;
 
+    &.error {
+        visibility: visible;
+    }
+}
 .cpc-link {
     width: 100%;
     text-align: right;
@@ -1347,6 +1354,7 @@ a {
 
         .news {
             .news {
+
                 .left-news,
                 .right-news {
                     display: flex;
@@ -1492,6 +1500,15 @@ a {
 }
 
 @media (min-width: 1401px) and (max-width: 2400px) {
+    .overlay-menu-box {
+        .bottom-menu {
+            a {
+                font-size: 20px !important;
+            }
+
+        }
+    }
+
     .news-info {
         margin-top: 4rem;
     }
@@ -1719,6 +1736,7 @@ a {
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
+
     .footer-overlay {
         position: absolute;
         width: 100%;
@@ -1728,8 +1746,10 @@ a {
         background: rgba(24, 24, 24, 0.76);
         z-index: -1;
     }
+
     .footer-social {
         z-index: 2;
+
         a {
             margin-right: 27px;
         }
@@ -1745,6 +1765,7 @@ a {
             color: #fff;
         }
     }
+
     .footer-bottom-link {
         a {
             h4 {
@@ -1755,19 +1776,22 @@ a {
                 letter-spacing: 0.004em;
                 color: $color-white;
                 transition: 0.3s all ease;
+
                 &:hover {
                     color: $color-primary-variant;
                 }
             }
         }
     }
+
     .footer-top {
-        margin-bottom: 4rem;
+        margin-bottom: 6rem;
         img {
             width: 4rem;
             height: 4rem;
             object-fit: cover;
         }
+
         .footer-top-menu {
             h3 {
                 font-family: "Montserrat";
@@ -1778,9 +1802,11 @@ a {
                 letter-spacing: 0.0015em;
                 margin-bottom: 1rem;
             }
+
             .footer_menu {
                 li {
                     margin-bottom: 8px;
+
                     a {
                         font-family: "Montserrat";
                         font-weight: 400;
@@ -1799,6 +1825,7 @@ a {
             margin-bottom: 3rem;
         }
     }
+
     @media (max-width: 576px) {
         .footer-top {
             margin-bottom: 1rem;

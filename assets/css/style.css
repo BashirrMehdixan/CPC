@@ -25,6 +25,15 @@ ul {
   padding: 0;
 }
 
+small.message {
+  visibility: hidden;
+  color: red;
+}
+
+small.message.error {
+  visibility: visible;
+}
+
 .cpc-link {
   width: 100%;
   text-align: right;
@@ -1418,6 +1427,9 @@ a {
 }
 
 @media (min-width: 1401px) and (max-width: 2400px) {
+  .overlay-menu-box .bottom-menu a {
+    font-size: 20px !important;
+  }
   .news-info {
     margin-top: 4rem;
   }
@@ -1680,7 +1692,7 @@ a {
 }
 
 .footer .footer-top {
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
 .footer .footer-top img {
