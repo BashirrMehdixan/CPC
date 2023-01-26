@@ -77,3 +77,23 @@ const contactSwiper = new Swiper('.contact-swiper', {
     },
 });
 
+// Form Validation
+const contactForm = document.querySelector("#contact-form");
+const contactName = document.querySelector(".contact-name");
+const contactEmail = document.querySelector(".contact-email");
+const contactMessage = document.querySelector(".contact-message");
+const contactBtn = document.querySelector(".contact-btn");
+
+contactBtn.addEventListener("click", () => {
+    console.log(contactName.value == "")
+    switch(contactName) {
+        case contactName.value == "": 
+        contactName.style.backgroundColor = "red";
+        break;
+        default:  
+        contactName.style.background = "green";
+    }
+})
+
+
+

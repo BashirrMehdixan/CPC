@@ -160,25 +160,26 @@
                 <div class="col-12">
                     <div class="contact-form my-5">
                         <h4 class="form-head my-4">CONTACT FORM</h4>
-                        <form action="">
+                        <form action="" id="contact-form">
                             <div class="row justify-content-center align-items-center">
                                 <div class="col-11 col-md-5">
                                     <div class="form-group">
-                                        <input type="text" class="form-control mb-3" placeholder="Name" required>
+                                        <input type="text" class="form-control mb-3 contact-name" placeholder="Name">
+                                        <small></small>
                                     </div>
                                 </div>
                                 <div class="col-11 col-md-5">
                                     <div class="form-group">
-                                        <input type="text" class="form-control mb-3" placeholder="Email" required>
+                                        <input type="text" class="form-control mb-3 contact-mail" placeholder="Email">
                                     </div>
                                 </div>
                                 <div class="col-12 d-flex justify-content-center">
                                     <div class="form-group col-md-10 col-11">
-                                        <textarea class="form-control message-area mb-3" rows="4" placeholder="Email"
+                                        <textarea class="form-control message-area mb-3 contact-message" rows="4" placeholder="Email"
                                             required></textarea>
                                     </div>
                                 </div>
-                                <button class="submit-btn btn btn-warning col-md-2 col-9">Send</button>
+                                <button class="submit-btn contact-btn btn btn-warning col-md-2 col-9">Send</button>
                             </div>
                         </form>
                     </div>
@@ -194,7 +195,7 @@
 
     </div>
 
-    <div class="suggestions">
+    <div class="suggestions my-5">
         <div class="container-cpc">
             <div class="cpc-title mt-3">
                 <h2 class="cpc-before">cpc</h2>
