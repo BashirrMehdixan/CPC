@@ -1161,6 +1161,60 @@ a {
         color: #575757;
     }
 }
+.satisfaction-form {
+    background-color: #f8e8e8c7;
+    h1 {
+        font-weight: 600;
+        font-family: "Montserrat" !important;
+    }
+}
+/*SiteMap Page*/
+.section-sitemap {
+    padding: 20px 0 40px 0;
+}
+.sitemap-main {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none !important;
+}
+.sitemap-main li {
+    padding: 30px 10px;
+}
+.sitemap-child li {
+    padding: 0;
+    width: auto !important;
+}
+.sitemap-main li a:hover {
+    color: #df5104;
+}
+.sitemap-main li a {
+    font-size: 28px;
+    font-weight: 700;
+    color: #222;
+    text-decoration: none;
+}
+.main-sitemap-item {
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid #dadada;
+}
+.sitemap-child {
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem 4rem;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none !important;
+}
+.sitemap-child li a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
 
 @media screen and (max-width: 576px) {
     .home-bg {
@@ -1679,13 +1733,24 @@ a {
         a {
             margin-right: 27px;
         }
+        .social-links {
+            gap: 0 1rem;
+        }
+
+        a {
+            font-weight: 400;
+            font-size: 1.5rem;
+            line-height: 16px;
+            letter-spacing: 0.004em;
+            color: #fff;
+        }
     }
     .footer-bottom-link {
         a {
             h4 {
                 font-family: "Montserrat";
                 font-weight: 400;
-                font-size: 12px;
+                font-size: 1rem;
                 line-height: 16px;
                 letter-spacing: 0.004em;
                 color: $color-white;
@@ -1697,7 +1762,7 @@ a {
         }
     }
     .footer-top {
-        margin-bottom: 6rem;
+        margin-bottom: 4rem;
         img {
             width: 4rem;
             height: 4rem;

@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/logo/main_logo.svg" type="image/svg" sizes="20x20">
+    <title>CPC</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="assets/plugin/swiper-bundle.min.css">
+    <!-- Fancy Box -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Main Slide End -->
+    <div class="left-nav d-none d-lg-flex flex-column align-items-center justify-content-evenly">
+        <a href="index.html">
+            <img src="./assets/img/logo/main_logo.svg" alt="" class="logo">
+        </a>
+        <buttton class="left-nav-btn d-flex flex-column align-items-center justify-content-between">
+            <span></span>
+            <span class="btn-content">Menu</span>
+        </buttton>
+        <div class="lang">
+            <button style="border-right: 2px solid #000;" class="nav__callback lang open_az"><span>AZ</span></button>
+            <button class="nav__callback lang open_ru"><span>RU</span></button>
+            <button class="nav__callback lang open_en"><span>EN</span></button>
+        </div>
+    </div>
+
+    <!-- Overlay menu -->
+    <div class="overlay-menu-box d-flex flex-column align-items-center justify-content-evenly">
+        <ul class="overlay-menu">
+            <li>
+                <a href="index.html">Əsas səhifə</a>
+            </li>
+            <li>
+                <a href="about.html">Haqqımızda</a>
+            </li>
+            <li>
+                <a href="production.html">İstehsalat</a>
+            </li>
+            <li>
+                <a href="news.html">Xəbərlər</a>
+            </li>
+            <li>
+                <a href="products.html">Məhsullar</a>
+            </li>
+            <li class="d-lg-none d-block">
+                <a href="vacancy.html">Vakansiya</a>
+            </li>
+            <li>
+                <a href="contact.html">Əlaqə</a>
+            </li>
+        </ul>
+        <ul class="lang-box d-flex d-lg-none align-items-center justify-content-center">
+            <li>
+                <a href="#">AZ</a>
+            </li>
+            <li>
+                <a href="#">RU</a>
+            </li>
+            <li>
+                <a href="#">EN</a>
+            </li>
+        </ul>
+        <div class="bottom-menu d-none d-lg-flex align-items-center justify-content-between">
+            <div class="social-links d-flex align-items-center justify-content-evenly">
+                <a href="#">
+                    <i class="ph-twitter-logo"></i>
+                </a>
+                <a href="#">
+                    <i class="ph-instagram-logo"></i>
+                </a>
+                <a href="#">
+                    <i class="ph-facebook-logo"></i>
+                </a>
+            </div>
+            <a href="vacancy.html">Vakansiya</a>
+            <a href="#">© 2022 G.A</a>
+        </div>
+    </div>
+    <!-- Overlay menu end -->
+
+    <!--Mobile Nav start-->
+    <div class="mobile-nav d-lg-none d-md-flex d-flex align-items-center justify-content-between">
+        <a href="index.html">
+            <img src="./assets/img/logo/cpc_logo.svg" alt="" class="logo">
+        </a>
+        <button class="mobile-nav-btn">
+            <span></span>
+        </button>
+    </div>
+    <!-- Mobile Nav end-->
+
+    <div class="satisfaction-form">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 mt-5">
+                    <h1 class="text-center satis-header">Müştəri məmnunluq anketi</h1>
+                </div>
+                <div class="col-lg-12 col-md-12 my-3">
+                    <!-- Register Form -->
+                    <form method="post" class="satisfaction">
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">MÜŞTƏRİ MƏLUMATLARI /
+                                    CUSTOMER INFORMATION</h2>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus"><label class="focus-label">Firma adı /Company name
+                                        <span>*</span></label><input type="text" name="name"
+                                        class="form-control floating">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus"><label class="focus-label">Firma adresi, web adresi
+                                        /Company website, adress
+                                        <span>*</span></label><input type="text" name="name"
+                                        class="form-control floating">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12 mt-3">
+                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">ANKETİ DOLDURAN HAQDA
+                                    MƏLUMAT / QUESTIONARE COMPLATED BY</h2>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group form-focus"><label class="focus-label">Adı və soyadı / Name &
+                                        surname
+                                        <span>*</span></label><input type="text" name="name"
+                                        class="form-control floating">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group form-focus"><label class="focus-label">Vəzifəsi / job title
+                                        <span>*</span></label><input type="text" name="name"
+                                        class="form-control floating">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group form-focus focused"><label class="focus-label">E-mail:
+                                        <span>*</span></label><input type="email" name="email"
+                                        class="form-control floating"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group form-focus"><label class="focus-label">Telefon /Phone
+                                        <span>*</span></label><input type="text" name="phone"
+                                        class="form-control floating">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group form-focus focused"><label class="focus-label">Tarix / Date
+                                        <span>*</span></label><input type="date" name="age"
+                                        class="form-control floating">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">Çatdırılma/Delivery
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">1. Sifarişlərin qüsursuz çatdırılması/
+                                    nondefective delivery of orders
+                                    <span>*</span>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">2. Sifarişlərin zamanında çatdırılması /
+                                    Timely delivery of orders
+                                    <span>*</span>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">3. Düzgün məhsul və miqdarın üçün çatdırılma
+                                    /The delivery for correct product and quantity
+                                    <span>*</span>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">Satış / Sales
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">4. Problemləri həll etmək üçün səlahiyyətli
+                                    və səriştəli kadrlar / The personnel with authority and competence to solve problems
+                                    <span>*</span>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">5.Təcili sifarişlərin yerinə yetirilməsi /
+                                    The fulfilment of urgent orders </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">6.Düzgün faturalandırma / Correct billing </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">7.Qiymətlərdə rəqabət üstünlüyü təmin edilməsi / Providing competitive advantages of price </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">8.Uyğun ödəniş şəraiti / Suitable payment condition</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">9.Uyğun olmayan məhsulları geri çağrılması / The recall inappropriate products</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">10.Qiymət dəyişikliyi haqqında məlumat verilməsi / Giving information about change of price</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">Əlaqə / Communication
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">11.Məsul şəxs haqqında məlumatların paylaşılması /Sharing information about responsible person</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">12.Telefon və e-poçt ilə asan ünsiyyət /Easy communication with phone and email </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">13. Geri dönüş müddətləri / Feedback times </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">14. Məhsul spesifikasiyalarının paylaşımı / Sharing of product spesification </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">15.Tələbi anlama və qarşılya bilmə /The ability for understanding and covering for demand. </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">16.Nümunələrin göndərilməsi prosesi  /The process of sample shipping </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">Məhsul /Product
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">17.Bazar və müştəri tələblərinə uyğun yeni məhsul hazırlama /The product development according customer and market expectation</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">18.Şikayət və geri cavablara vaxtında və uyğun həllin təqdim edilməsi / Offering timely and appropriate solutions to complaints and feedbacks</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">19.Məhsul spesifikasiyalarının uyğunluğunun müştəri tərəfindən bəyənilməsi / The customer's appreciation for specifications in accordance with products</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">20.Nişastaların müştəri tərəfindən bəyənilməsi / The customer's appreciation for starches</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">21.Qlükoza siropunun müştəri tərəfindən bəyənilməsi / The customer's appreciation for Glucose syrup</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">22.Fruktoza siropunun müştəri tərəfindən bəyənilməsi / The customer's appreciation for Fructose syrup</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">23.Yan məhsulların (kəpək, öz, qlüten) müştəri tərəfindən bəyənilməsi / The customer's appreciation for by products (bran, germ, gluten)</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">24.Məhsul çeşidi / The product variety</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">Şirkət Profili/ Company Profile
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">25.Performans, çeviklik və komandada işləmək /The performance, agility and teamwork </p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">26.Yenilikçi yanaşma /The innovative approach</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">27.Müştəri məmnuniyyətinə verilən önəm / The importance given to customer satisfaction</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">28.Gigiyena və sanitariya ilə bağlı həssaslıq  / The sensitivity about hygiene and sanitation</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">29.HACCP qida təhlükəsizliyi və keyfiyyət idarəetmə sistemlərinin rəqabət üstünlüyü  / The competitive advantage of HACCP food safety and quality management systems</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <h2 style="color: #ff8e02; font-weight: 600; font-style: italic;">Ümumi / General
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">30.Ümumi olaraq zavodumuzla işləməkdən nə qədər məmnunsunuz? /  How much are you pleased for working with us in general ?</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label class="focus-label">Qiymətləndirmə /
+                                        Scoring</label><select name="q1" class="form-control floating">
+                                        <option disabled="" selected="" value=""> -- seçim -- </option>
+                                        <option value="Çox razı deyil - 1">1-Çox razı deyil / Very unsatisfied</option>
+                                        <option value="Razı deyil - 2">2-Razı deyil / Unsatisfied</option>
+                                        <option value="Neytral- 3">3-Neytral / Neutral </option>
+                                        <option value="Razı - 4">4-Razı / Satisfied</option>
+                                        <option value="çox razı - 5">5-Çox razı / Very satisfied</option>
+                                    </select></div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex align-items-center mt-2">
+                            <div class="col-md-8">
+                                <p class="m-0" style="font-style: italic;">31.Şirkətimizlə nə qədər müddətdir işləyirsiniz? (il) / How long have you been working with our company ? (year)</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-focus focused"><label
+                                        class="focus-label">Qeyd</label><textarea rows="1" name="n11"
+                                        class="form-control floating"></textarea></div>
+                            </div>
+                        </div>
+                            
+                        <div class="form-group form-focus focused mt-2" style="height: auto;"><label class="focus-label"
+                                style="font-size: 1rem;">Təklif və şikayətləriniz, Suggestions and
+                                Complaints</label><textarea rows="5" name="n13" class="form-control floating mt-2"
+                                style="height: auto;"></textarea></div>
+                        <button class="btn btn-block btn-lg login-btn my-4 w-100"
+                            style="background-color: #ff8e02; color: #fff;box-shadow: none;" type="submit"
+                            data-attach-loading="">Göndər</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer Start-->
+    <footer>
+        <div class="footer">
+            <div class="footer-overlay"></div>
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 pb-4">
+                            <a href="/index.html">
+                                <img src="/assets/img/logo/cpc_logo.svg" alt="" class="footer-logo">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-12 pb-4">
+                            <div class="footer-top-menu">
+                                <h3>İnformasiya</h3>
+                                <div class="footer_menu">
+                                    <ul>
+                                        <li><a href="about.html">Haqqımızda</a></li>
+                                        <li><a href="reseption-days.html">İstehsalat</a></li>
+                                        <li><a href="certificates.html">Sertifikatlar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-12 pb-4">
+                            <div class="footer-top-menu">
+                                <h3>Media və Məhsullar</h3>
+                                <div class="footer_menu">
+                                    <ul>
+                                        <li><a href="news.html">Xəbərlər</a></li>
+                                        <li><a href="products.html">Məhsullar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-12 pb-4">
+                            <div class="footer-top-menu">
+                                <h3>Karyera</h3>
+                                <div class="footer_menu">
+                                    <ul>
+                                        <li><a href="vacancy.html">Vakansiyalar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-3 col-md-6 col-sm-6 pb-3">
+                            <div class="footer-social">
+                                <a href="#">
+                                    <i class="ph-twitter-logo"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="ph-facebook-logo"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="ph-instagram-logo"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 pb-3">
+                            <div class="footer-bottom-link">
+                                <a href="/satisfaction.html">
+                                    <h4> Məmnunluq anketi
+                                    </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 pb-3">
+                            <div class="footer-bottom-link">
+                                <a href="/sitemap.html">
+                                    <h4> Saytın xəritəsi
+                                    </h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 pb-3">
+                            <div class="footer-bottom-link">
+                                <a href="#">
+                                    <h4> <span>© 2022 </span>IN4TECH</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer End-->
+
+    <!-- Phosphor icons -->
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <!-- Fancy Box -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <!-- Bootstrap -->
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Swiper -->
+    <script src="./assets/plugin/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1141,6 +1141,86 @@ a {
   color: #575757;
 }
 
+.satisfaction-form {
+  background-color: #f8e8e8c7;
+}
+
+.satisfaction-form h1 {
+  font-weight: 600;
+  font-family: "Montserrat" !important;
+}
+
+/*SiteMap Page*/
+.section-sitemap {
+  padding: 20px 0 40px 0;
+}
+
+.sitemap-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none !important;
+}
+
+.sitemap-main li {
+  padding: 30px 10px;
+}
+
+.sitemap-child li {
+  padding: 0;
+  width: auto !important;
+}
+
+.sitemap-main li a:hover {
+  color: #df5104;
+}
+
+.sitemap-main li a {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+  text-decoration: none;
+}
+
+.main-sitemap-item {
+  padding: 20px 0;
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+}
+
+.sitemap-child {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 1rem 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none !important;
+}
+
+.sitemap-child li a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 576px) {
   .home-bg #myVideo {
     min-height: 80%;
@@ -1572,10 +1652,22 @@ a {
   margin-right: 27px;
 }
 
+.footer .footer-social .social-links {
+  gap: 0 1rem;
+}
+
+.footer .footer-social a {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 16px;
+  letter-spacing: 0.004em;
+  color: #fff;
+}
+
 .footer .footer-bottom-link a h4 {
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 12px;
+  font-size: 1rem;
   line-height: 16px;
   letter-spacing: 0.004em;
   color: #fff;
@@ -1588,7 +1680,7 @@ a {
 }
 
 .footer .footer-top {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .footer .footer-top img {
