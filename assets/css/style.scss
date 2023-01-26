@@ -426,12 +426,6 @@ a {
     }
 }
 
-.all-pages {
-    .swiper-wrapper {
-        min-height: 100vh;
-    }
-}
-
 .about {
     margin-top: 2rem;
     background-image: url(../img/main/yarpaq.jpg);
@@ -638,7 +632,6 @@ a {
 }
 
 .setem {
-
     .setem-content {
         p {
             font-style: normal;
@@ -1300,7 +1293,6 @@ a {
 
         .news {
             .news {
-
                 .left-news,
                 .right-news {
                     display: flex;
@@ -1665,15 +1657,14 @@ a {
     }
 }
 
-/*Footer*/
 .footer {
     padding: 3rem 0;
-    background-image: url(../img/main/main.jpg);
+    background-image: url(../../assets/img/main/main.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    z-index: 99999999999999999999;
+    z-index: 1;
     .footer-overlay {
         position: absolute;
         width: 100%;
@@ -1681,56 +1672,54 @@ a {
         left: 0px;
         top: 0px;
         background: rgba(24, 24, 24, 0.76);
+        z-index: -1;
     }
-
-    .footer-logo {
-        width: 100px;
-        height: 100px;
-    }
-
     .footer-social {
+        z-index: 2;
         a {
             margin-right: 27px;
         }
     }
-
     .footer-bottom-link {
         a {
             h4 {
+                font-family: "Montserrat";
                 font-weight: 400;
                 font-size: 12px;
                 line-height: 16px;
                 letter-spacing: 0.004em;
                 color: $color-white;
                 transition: 0.3s all ease;
-
                 &:hover {
                     color: $color-primary-variant;
                 }
             }
         }
     }
-
     .footer-top {
         margin-bottom: 6rem;
-
+        img {
+            width: 4rem;
+            height: 4rem;
+            object-fit: cover;
+        }
         .footer-top-menu {
             h3 {
+                font-family: "Montserrat";
                 font-weight: 700;
-                font-size: 16px;
+                font-size: 18px;
                 line-height: 24px;
                 color: $color-white;
                 letter-spacing: 0.0015em;
                 margin-bottom: 1rem;
             }
-
             .footer_menu {
                 li {
                     margin-bottom: 8px;
-
                     a {
+                        font-family: "Montserrat";
                         font-weight: 400;
-                        font-size: 14px;
+                        font-size: 1rem;
                         line-height: 20px;
                         color: $color-white;
                         letter-spacing: 0.0025em;
@@ -1745,7 +1734,6 @@ a {
             margin-bottom: 3rem;
         }
     }
-
     @media (max-width: 576px) {
         .footer-top {
             margin-bottom: 1rem;
