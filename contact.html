@@ -101,6 +101,7 @@
         </button>
     </div>
     <!-- Mobile Nav end-->
+
     <div class="breadcrump-section mt-5">
         <div class="container-cpc">
             <nav aria-label="breadcrumb">
@@ -111,6 +112,7 @@
             </nav>
         </div>
     </div>
+
     <div class=" contact-swiper mt-5">
         <div class="container">
             <div class="cpc-title">
@@ -165,18 +167,20 @@
                                 <div class="col-11 col-md-5">
                                     <div class="form-group">
                                         <input type="text" class="form-control mb-3 contact-name" placeholder="Name">
-                                        <small></small>
+                                        <small class="message">Bu xana boş buraxıla bilməz</small>
                                     </div>
                                 </div>
                                 <div class="col-11 col-md-5">
                                     <div class="form-group">
                                         <input type="text" class="form-control mb-3 contact-mail" placeholder="Email">
+                                        <small class="message">Bu xana boş buraxıla bilməz</small>
                                     </div>
                                 </div>
                                 <div class="col-12 d-flex justify-content-center">
                                     <div class="form-group col-md-10 col-11">
-                                        <textarea class="form-control message-area mb-3 contact-message" rows="4" placeholder="Email"
-                                            required></textarea>
+                                        <textarea class="form-control message-area mb-3 contact-message" rows="4"
+                                            placeholder="Email"></textarea>
+                                        <small class="message">Bu xana boş buraxıla bilməz</small>
                                     </div>
                                 </div>
                                 <button class="submit-btn contact-btn btn btn-warning col-md-2 col-9">Send</button>
@@ -206,23 +210,27 @@
                     <form action="">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-11 col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control mb-3" placeholder="Name" required>
+                                <div class="form-group  mb-3">
+                                    <input type="text" class="form-control suggestions-name" placeholder="Name">
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
                                 </div>
                             </div>
                             <div class="col-11 col-md-6">
-                                <div class="form-group">
-                                    <input type="date" class="form-control mb-3" required>
+                                <div class="form-group  mb-3">
+                                    <input type="date" class="form-control suggestions-date">
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
                                 </div>
                             </div>
                             <div class="col-11 col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control mb-3" placeholder="Number" required>
+                                <div class="form-group  mb-3">
+                                    <input type="text" class="form-control suggestions-number" placeholder="Number">
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
                                 </div>
                             </div>
                             <div class="col-11 col-md-6">
-                                <div class="form-group">
-                                    <input type="e-mail" class="form-control mb-3" placeholder="Email" required>
+                                <div class="form-group  mb-3">
+                                    <input type="e-mail" class="form-control suggestions-mail" placeholder="Email">
+                                    <small class="message">Bu xana boş buraxıla bilməz</small>
                                 </div>
                             </div>
                             <div class="col-12">
@@ -232,13 +240,13 @@
                                 </p>
                             </div>
                             <div class="col-12 d-flex justify-content-center">
-                                <div class="form-group col-md-12 col-12">
-                                    <textarea class="form-control message-area mb-3" rows="7"
-                                        placeholder="What you are insterested" required></textarea>
+                                <div class="form-group  mb-3 col-md-12 col-12">
+                                    <textarea class="form-control message-area suggestions-msg" rows="7"
+                                        placeholder="What you are insterested"></textarea>
+                                        <small class="message">Bu xana boş buraxıla bilməz</small>
                                 </div>
-                                <p id="reuiredMessage"></p>
                             </div>
-                            <button class="submit-btn btn btn-warning col-md-2 col-9">Send</button>
+                            <button class="submit-btn btn btn-warning suggestions-btn col-md-2 col-9">Send</button>
                         </div>
                     </form>
                 </div>
