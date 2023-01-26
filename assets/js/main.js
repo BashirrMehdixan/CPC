@@ -182,23 +182,25 @@ $("#suggestions-form").submit(function (event) {
 $(".satisfaction").submit(function (event) {
     event.preventDefault();
     var empty = false;
-    $(".satisfaction :input, select").each(function () {
+    $(".satisfaction :input").each(function () {
         if ($(this).val() == "") {
-            $(this).siblings(".message").addClass("error");
+            $(this).siblings(".message").addClass("error").text("Bu xana boş buraxıla bilməz");
             empty = true;
         } else {
             $(this).siblings(".message").removeClass("error");
             $(this).siblings(".message").text("");
         }
     });
-    var selectedValue = $("select[name='q1']").val();
-    var label = $("label[for='q1']");
-    if (!selectedValue || selectedValue == "") {
-        label.addClass("error");
-        e.preventDefault();
-    } else {
-        label.removeClass("error");
-    }
+    $(".satisfaction select").each(function () {
+        var selectedValue = $(this).val();
+        var errorLabel = $(".error-select");
+        if (!selectedValue || selectedValue == "") {
+            $(errorLabel).addClass("error").text("Qiymətləndirmə boş buraxıla bilməz");
+        } else {
+            $(errorLabel).text("").removeClass("error")
+        }
+    })
 });
+
 
 

@@ -46,13 +46,9 @@ body::-webkit-scrollbar {
 ul {
     padding: 0;
 }
-small.message {
-    visibility: hidden;
-    color: red;
 
-    &.error {
-        visibility: visible;
-    }
+.error {
+    color: red;
 }
 .cpc-link {
     width: 100%;
@@ -661,16 +657,12 @@ a {
     margin-top: 1rem;
 
     span {
-        font-weight: 700;
-        font-size: 31.25px;
-        line-height: 37px;
-        letter-spacing: -0.02em;
-        color: $headerColor;
-
-        &:first-child {
-            font-size: 48.83px;
-            opacity: 0.5;
-        }
+        font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 25px;
+            letter-spacing: -0.02em;
+            color: #616161;
     }
 }
 
@@ -691,23 +683,6 @@ a {
         height: 350px;
         width: 95%;
         object-fit: cover;
-    }
-
-    .product-name-box {
-        margin-top: 1rem;
-
-        span {
-            font-weight: 700;
-            font-size: 31.25px;
-            line-height: 37px;
-            letter-spacing: -0.02em;
-            color: $headerColor;
-
-            &:first-child {
-                font-size: 48.83px;
-                opacity: 0.5;
-            }
-        }
     }
 }
 
@@ -1168,17 +1143,21 @@ a {
         color: #575757;
     }
 }
+
 .satisfaction-form {
     background-color: #f8e8e8c7;
+
     h1 {
         font-weight: 600;
         font-family: "Montserrat" !important;
     }
 }
+
 /*SiteMap Page*/
 .section-sitemap {
     padding: 20px 0 40px 0;
 }
+
 .sitemap-main {
     display: flex;
     justify-content: space-between;
@@ -1187,27 +1166,33 @@ a {
     flex-wrap: wrap;
     list-style: none !important;
 }
+
 .sitemap-main li {
     padding: 30px 10px;
 }
+
 .sitemap-child li {
     padding: 0;
     width: auto !important;
 }
+
 .sitemap-main li a:hover {
     color: #df5104;
 }
+
 .sitemap-main li a {
     font-size: 28px;
     font-weight: 700;
     color: #222;
     text-decoration: none;
 }
+
 .main-sitemap-item {
     padding: 20px 0;
     width: 100%;
     border-bottom: 1px solid #dadada;
 }
+
 .sitemap-child {
     padding: 10px 0;
     display: flex;
@@ -1217,6 +1202,7 @@ a {
     flex-wrap: wrap;
     list-style: none !important;
 }
+
 .sitemap-child li a {
     font-size: 18px;
     font-weight: 400;
@@ -1753,6 +1739,7 @@ a {
         a {
             margin-right: 27px;
         }
+
         .social-links {
             gap: 0 1rem;
         }
@@ -1786,6 +1773,7 @@ a {
 
     .footer-top {
         margin-bottom: 6rem;
+
         img {
             width: 4rem;
             height: 4rem;
