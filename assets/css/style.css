@@ -1084,7 +1084,7 @@ a {
   }
   .overlay-menu-box .overlay-menu {
     margin-top: 6rem;
-    justify-content: center !important;
+    justify-content: space-evenly !important;
   }
   .overlay-menu-box .overlay-menu li a {
     font-size: 30px !important;
@@ -1151,7 +1151,7 @@ a {
     margin-top: 8rem !important;
   }
   .overlay-menu-box .overlay-menu {
-    justify-content: center !important;
+    justify-content: space-evenly !important;
   }
   .overlay-menu-box .bottom-menu {
     gap: 8rem !important;
