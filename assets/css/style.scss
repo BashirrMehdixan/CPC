@@ -1520,24 +1520,40 @@ a {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1300px) {
     .news {
+        padding-left: 2rem;
+    }
+
+    .all-news {
         padding-left: 5rem;
+    }
+
+    .about {
+        .container {
+            padding-left: 5rem;
+        }
     }
 
     .our-teams,
     .setem,
     .quality,
-    .certificate, .product-slide, .vacancy, .contact-swiper {
+    .certificate,
+    .product-slide,
+    .vacancy,
+    .contact-swiper,
+    .e-catalog {
         .container {
             padding-left: 5rem !important;
         }
     }
-.setem-img {
-    img {
-        width: 100%;
+
+    .setem-img {
+        img {
+            width: 100%;
+        }
     }
-}
+
     .footer {
         padding: 3rem 5rem !important;
     }

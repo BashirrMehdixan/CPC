@@ -1193,14 +1193,24 @@ a {
     margin: 1rem;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1300px) {
   .news {
+    padding-left: 2rem;
+  }
+  .all-news {
+    padding-left: 5rem;
+  }
+  .about .container {
     padding-left: 5rem;
   }
   .our-teams .container,
 .setem .container,
 .quality .container,
-.certificate .container, .product-slide .container, .vacancy .container, .contact-swiper .container {
+.certificate .container,
+.product-slide .container,
+.vacancy .container,
+.contact-swiper .container,
+.e-catalog .container {
     padding-left: 5rem !important;
   }
   .setem-img img {

@@ -34,7 +34,15 @@ const pageSwiper = new Swiper('.page-swiper', {
             slidesPerView: 1,
             spaceBetween: 200,
 
-        }
+        },
+        992: {
+            slidesPerView: 1,
+            spaceBetween: 400,
+        },
+        1201: {
+            slidesPerView: 1,
+            spaceBetween: 500,
+        },
     }
 });
 const catalogSwiper = new Swiper('.catalog-swiper', {
