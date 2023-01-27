@@ -570,8 +570,8 @@ a {
   transition: ease 0.6s;
   height: 350px;
   width: 95%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
 }
 
 .products-page img {
@@ -842,8 +842,9 @@ a {
   color: #fff;
 }
 .vacancy .vacancy-box .vacancy-name {
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.005em;
   color: #000000;
@@ -1199,7 +1200,7 @@ a {
   .our-teams .container,
 .setem .container,
 .quality .container,
-.certificate .container {
+.certificate .container, .product-slide .container, .vacancy .container, .contact-swiper .container {
     padding-left: 5rem !important;
   }
   .setem-img img {
