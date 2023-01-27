@@ -1535,6 +1535,15 @@ a {
         }
     }
 
+    .products-page.container {
+        padding-left: 5rem !important;
+    }
+
+    .news-info,
+    .certificates {
+        padding-left: 5rem !important;
+    }
+
     .our-teams,
     .setem,
     .quality,
@@ -1548,6 +1557,13 @@ a {
         }
     }
 
+    .why-us,
+    .preferences {
+        .container {
+            padding-left: 5rem !important;
+        }
+    }
+
     .setem-img {
         img {
             width: 100%;
@@ -1556,6 +1572,18 @@ a {
 
     .footer {
         padding: 3rem 5rem !important;
+    }
+
+    .satisfaction-form {
+        .container {
+            padding-left: 5rem !important;
+        }
+    }
+
+    .section-sitemap {
+        .container {
+            padding-left: 5rem !important;
+        }
     }
 }
 
@@ -1575,6 +1603,74 @@ a {
 
     .production-middle {
         align-items: flex-end;
+    }
+}
+
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+    .news {
+        padding-left: 2rem;
+    }
+
+    .all-news {
+        padding-left: 5rem;
+    }
+
+    .about {
+        .container {
+            padding-left: 5rem;
+        }
+    }
+
+    .news-info,
+    .certificates {
+        padding-left: 5rem !important;
+    }
+
+    .why-us,
+    .preferences {
+        .container {
+            padding-left: 5rem !important;
+        }
+    }
+
+    .our-teams,
+    .setem,
+    .quality,
+    .certificate,
+    .product-slide,
+    .vacancy,
+    .contact-swiper,
+    .e-catalog {
+        .container {
+            padding-left: 5rem !important;
+        }
+    }
+
+    .products-page.container {
+        padding-left: 5rem !important;
+    }
+
+    .setem-img {
+        img {
+            width: 100%;
+        }
+    }
+
+    .satisfaction-form {
+        .container {
+            padding-left: 5rem !important;
+        }
+    }
+
+    .section-sitemap {
+        .container {
+            padding-left: 5rem !important;
+        }
+    }
+
+    .footer {
+        padding: 3rem 5rem !important;
     }
 }
 
