@@ -297,11 +297,13 @@ a {
     top: 0;
     right: 0;
     transform: translate(-100%);
+    display: none;
     transition: all 1s;
     z-index: 99;
 
     &.opened {
         transform: translate(0);
+        display: block;
     }
 
     .overlay-menu {
@@ -454,9 +456,12 @@ a {
         border: none;
 
         .team-img {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 100%;
+            }
         }
 
         .card-body {
@@ -656,7 +661,7 @@ a {
 .product-name-box {
     margin-top: 1rem;
 
-    span {
+    a {
         font-style: normal;
         font-weight: 400;
         font-size: 30px !important;
@@ -765,7 +770,7 @@ a {
         background-repeat: no-repeat;
         background-size: contain;
         background-image: url(../img/why/background.jpg);
-        height: 100vh;
+        min-height: 100vh;
 
         .img-cycle {
             display: flex;
@@ -805,6 +810,14 @@ a {
 
     .preferences {
         position: relative;
+
+        .preferences-section {
+            li {
+                display: flex;
+                align-items: center;
+                margin: 1rem;
+            }
+        }
 
         .preferences-content-box {
             width: 45%;
@@ -1112,8 +1125,8 @@ a {
                 height: 10px;
                 border-radius: 50px;
                 background: $headerColor;
-                left: 0;
-                top: 6px;
+                right: 99%;
+                top: 8px;
             }
         }
     }
@@ -1247,11 +1260,26 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+    .cpc-title {
+        width: 100%;
+        margin-top: 2rem !important;
+
+        .cpc-after {
+            left: 74px;
+            bottom: 0;
+        }
+    }
+
+    .footer {
+        padding: 3rem 5rem !important;
+    }
+
     .suggestions-title {
         width: 80% !important;
     }
 
     .all-pages {
+
         .news {
             margin: 0;
 
@@ -1285,10 +1313,6 @@ a {
         }
     }
 
-    .cpc-title {
-        width: 100%;
-    }
-
     .container-cpc {
         padding: 0 2rem !important;
     }
@@ -1303,12 +1327,7 @@ a {
         height: 300px;
     }
 
-    .cpc-title {
-        .cpc-after {
-            left: 74px;
-            bottom: 0;
-        }
-    }
+
 
     .overlay-menu-box {
         .overlay-menu {
@@ -1497,6 +1516,29 @@ a {
                 margin: 1rem;
             }
         }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .news {
+        padding-left: 5rem;
+    }
+
+    .our-teams,
+    .setem,
+    .quality,
+    .certificate {
+        .container {
+            padding-left: 5rem !important;
+        }
+    }
+.setem-img {
+    img {
+        width: 100%;
+    }
+}
+    .footer {
+        padding: 3rem 5rem !important;
     }
 }
 

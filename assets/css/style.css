@@ -247,11 +247,13 @@ a {
   top: 0;
   right: 0;
   transform: translate(-100%);
+  display: none;
   transition: all 1s;
   z-index: 99;
 }
 .overlay-menu-box.opened {
   transform: translate(0);
+  display: block;
 }
 .overlay-menu-box .overlay-menu {
   width: 100%;
@@ -383,10 +385,12 @@ a {
 .our-teams .team-card {
   border: none;
 }
-.our-teams .team-card .team-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.our-teams .team-card .team-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
 }
 .our-teams .team-card .card-body span {
   display: block;
@@ -546,7 +550,7 @@ a {
 .product-name-box {
   margin-top: 1rem;
 }
-.product-name-box span {
+.product-name-box a {
   font-style: normal;
   font-weight: 400;
   font-size: 30px !important;
@@ -634,7 +638,7 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url(../img/why/background.jpg);
-  height: 100vh;
+  min-height: 100vh;
 }
 .products-box .why-us .img-cycle {
   display: flex;
@@ -667,6 +671,11 @@ a {
 }
 .products-box .preferences {
   position: relative;
+}
+.products-box .preferences .preferences-section li {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
 }
 .products-box .preferences .preferences-content-box {
   width: 45%;
@@ -917,8 +926,8 @@ a {
   height: 10px;
   border-radius: 50px;
   background: #ff8e02;
-  left: 0;
-  top: 6px;
+  right: 99%;
+  top: 8px;
 }
 .vacancy-info .vacancy-bottom .social-link {
   gap: 1rem;
@@ -1027,6 +1036,17 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
+  .cpc-title {
+    width: 100%;
+    margin-top: 2rem !important;
+  }
+  .cpc-title .cpc-after {
+    left: 74px;
+    bottom: 0;
+  }
+  .footer {
+    padding: 3rem 5rem !important;
+  }
   .suggestions-title {
     width: 80% !important;
   }
@@ -1051,9 +1071,6 @@ a {
   .production-box .production .production-middle .all-content-head {
     margin: 2rem 0;
   }
-  .cpc-title {
-    width: 100%;
-  }
   .container-cpc {
     padding: 0 2rem !important;
   }
@@ -1064,10 +1081,6 @@ a {
   }
   .all-pages .e-catalog .swiper-slide-active img {
     height: 300px;
-  }
-  .cpc-title .cpc-after {
-    left: 74px;
-    bottom: 0;
   }
   .overlay-menu-box .overlay-menu {
     margin-top: 6rem;
@@ -1177,6 +1190,23 @@ a {
   }
   .pro-all .production-middle .all-content-head {
     margin: 1rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .news {
+    padding-left: 5rem;
+  }
+  .our-teams .container,
+.setem .container,
+.quality .container,
+.certificate .container {
+    padding-left: 5rem !important;
+  }
+  .setem-img img {
+    width: 100%;
+  }
+  .footer {
+    padding: 3rem 5rem !important;
   }
 }
 @media (min-width: 1401px) and (max-width: 2400px) {
