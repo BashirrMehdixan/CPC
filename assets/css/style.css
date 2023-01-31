@@ -69,7 +69,6 @@ a {
 }
 
 .cpc-link a {
-  font-family: "Co Headline Corp";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -208,6 +207,7 @@ a {
 }
 .left-nav .left-nav-btn span {
   display: block;
+  font-family: "Co Headline Corp";
   color: #000;
 }
 .left-nav .left-nav-btn span:first-child {
@@ -234,6 +234,9 @@ a {
   transform: rotate(-90deg);
   border: none;
   background-color: transparent;
+}
+.left-nav .lang .nav__callback span {
+  font-family: "Co Headline Corp";
 }
 .left-nav .lang .nav__callback.lang {
   border-left: 2px solid #000;
@@ -385,11 +388,16 @@ a {
 .our-teams .team-card {
   border: none;
 }
+.our-teams .team-card .team-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .our-teams .team-card .team-img img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 300px;
+  height: 300px;
+  -o-object-fit: fill;
+     object-fit: fill;
   border-radius: 100%;
 }
 .our-teams .team-card .card-body span {
@@ -406,7 +414,7 @@ a {
 }
 .our-teams .team-card .card-body span.team-job {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 25px;
   line-height: 31px;
   color: #ff8e02;
@@ -552,7 +560,7 @@ a {
 }
 .product-name-box a {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 30px !important;
   line-height: 25px !important;
   letter-spacing: -0.02em !important;
@@ -1324,7 +1332,6 @@ a {
   transform: translateX(-50%);
 }
 .home-bg .home-bg-content h2 {
-  font-family: "Co Headline Corp";
   font-style: normal;
   font-weight: 700;
   font-size: 130px;

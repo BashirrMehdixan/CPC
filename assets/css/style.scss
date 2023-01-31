@@ -94,7 +94,6 @@ a {
 
 .cpc-link {
     a {
-        font-family: "Co Headline Corp";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -251,6 +250,7 @@ a {
 
         span {
             display: block;
+            font-family: "Co Headline Corp";
             color: $blackColor;
 
             &:first-child {
@@ -281,6 +281,10 @@ a {
             transform: rotate(-90deg);
             border: none;
             background-color: transparent;
+
+            span {
+                font-family: "Co Headline Corp";
+            }
         }
 
         .nav__callback.lang {
@@ -456,10 +460,14 @@ a {
         border: none;
 
         .team-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
             img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
+                width: 300px;
+                height: 300px;
+                object-fit: fill;
                 border-radius: 100%;
             }
         }
@@ -480,7 +488,7 @@ a {
 
                 &.team-job {
                     font-style: normal;
-                    font-weight: 400;
+                    font-weight: 800;
                     font-size: 25px;
                     line-height: 31px;
                     color: $headerColor;
@@ -663,7 +671,7 @@ a {
 
     a {
         font-style: normal;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 30px !important;
         line-height: 25px !important;
         letter-spacing: -0.02em !important;
@@ -1712,7 +1720,6 @@ a {
         transform: translateX(-50%);
 
         h2 {
-            font-family: "Co Headline Corp";
             font-style: normal;
             font-weight: 700;
             font-size: 130px;
